@@ -12,7 +12,11 @@ To go around this issue, the business has requested a webapp from which its cust
 
 ### Functionality/Features
 
+This app will include the functionality to allow users to order a standard pizza off a set menu, design their own pizza with a choice of different bases, sauce types, and toppings, offer the option to add sides and drinks and then return an estimate to the user as to how long it will take the order to be completed.
+
 ### Target Audience
+
+The target audience for this app is the current customer base for Miguelitto’s pizzeria who are frustrated with the current system of taking orders that results in delays with both taking orders and preparing pizzas. In addition, this app will also positively affect Miguelitto’s, as they will be able focus on serving customer orders faster and more efficiently, thus increasing the number of orders they can fill and the amount of money the business can make.
 
 ### Tech Stack
 
@@ -37,6 +41,22 @@ To go around this issue, the business has requested a webapp from which its cust
 ## Application Architecture Diagram
 
 ## User Stories
+
+Alice
+
+Alice is a militant vegan coeliac who wants absolute control over what is put on her pizzas. She needs to be able to choose gluten free products, and also demands that she be able to make sure that any products she eats are free of animal products. Alice wants specific background information on the ingredients used so she can make an informed choice.
+
+Bob
+
+Bob is a wannabe gourmet who wants to be able to fulfill his sick twisted desires to mix prawns with pineapple and BBQ sauce. Bob wants full control of the toppings on his pizza so that her can explore all of his culinary desires. Bob also wants to be able to select the sizes of any pizzas he creates so that he is not stuck with a family sized pizza with a combination of toppings that turns out to be inedible.
+
+Jessica
+
+Jessica is a hard-pressed working mother of seven who has no spare time to wait around. She wants an application that quickly lets her order a sufficient number of pizzas to feed her brood while making sure that any specific requests her children have can be fulfilled easily. Jessica wants full control over the toppings on her pizzas to fill her children’s demands so that she can have a relatively easy dinner for once. Jessica also wants to see exactly how long it will take until the pizzas are ready so that she can better organise her evening.  
+
+Dave
+
+Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and simply enter in the requisite choices so that he can have his favourite pizza as soon as possible with the minimum of fuss. Dave wants an app that is simple to use and offers him the choices he wants so that he doesn’t have to think or invest a lot mental energy in deciding what he wants for dinner.
 
 ## Wireframes
 
