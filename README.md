@@ -44,11 +44,14 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 Alice
 
-Alice is a militant vegan coeliac who wants absolute control over what is put on her pizzas. She needs to be able to choose gluten free products, and also demands that she be able to make sure that any products she eats are free of animal products. Alice wants specific background information on the ingredients used so she can make an informed choice.
+Alice is a militant vegan coeliac who wants absolute control over what is put on her pizzas. She needs an app that lets her choose specifically gluten free products, while making sure that any ingredients she chooses are free of animal products. Alice wants specific background information on the ingredients used so she can make an informed choice.
 
 Bob
 
-Bob is a wannabe gourmet who wants to be able to fulfill his sick twisted desires to mix prawns with pineapple and BBQ sauce. Bob wants full control of the toppings on his pizza so that her can explore all of his culinary desires. Bob also wants to be able to select the sizes of any pizzas he creates so that he is not stuck with a family sized pizza with a combination of toppings that turns out to be inedible.
+Bob is a wannabe gourmet who wants to be able to fulfill his sick twisted desires to mix prawns with pineapple and BBQ sauce. Bob wants an app that gives him full control of the toppings on his pizza, so that he can explore all of his culinary desires.
+
+Not all adventurous combinations will work together that well, and as such, Bob also wants to be able to select the sizes of any pizzas he creates, so that in case he creates a combination that turns out to be inedible he won’t end up wasting an entire full priced large pizza.
+
 
 Jessica
 
@@ -58,8 +61,12 @@ Dave
 
 Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and simply enter in the requisite choices so that he can have his favourite pizza as soon as possible with the minimum of fuss. Dave wants an app that is simple to use and offers him the choices he wants so that he doesn’t have to think or invest a lot mental energy in deciding what he wants for dinner.
 
+Miguelitto
+
+Miguellito is an overwhelmed business owner juggling both running the customer service side of his pizzeria and the kitchen side. He needs an application that reduces the pressure on the customer service side so that he can focus on creating pizzas and speeding up the coooking process. in addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. 
+
 ## Wireframes
 
-## Trello Screenshots
+## Trello Screenshotas
 
 ### M&M IT Solutions
