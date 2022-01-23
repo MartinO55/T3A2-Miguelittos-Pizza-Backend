@@ -52,7 +52,6 @@ Bob is a wannabe gourmet who wants to be able to fulfill his sick twisted desire
 
 Not all adventurous combinations will work together that well, and as such, Bob also wants to be able to select the sizes of any pizzas he creates, so that in case he creates a combination that turns out to be inedible he won’t end up wasting an entire full priced large pizza.
 
-
 Jessica
 
 Jessica is a hard-pressed working mother of seven who has no spare time to wait around. She wants an application that quickly lets her order a sufficient number of pizzas to feed her brood while making sure that any specific requests her children have can be fulfilled easily. Jessica wants full control over the toppings on her pizzas to fill her children’s demands so that she can have a relatively easy dinner for once. Jessica also wants to see exactly how long it will take until the pizzas are ready so that she can better organise her evening.  
@@ -63,7 +62,7 @@ Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and 
 
 Miguelitto
 
-Miguellito is an overwhelmed business owner juggling both running the customer service side of his pizzeria and the kitchen side. He needs an application that reduces the pressure on the customer service side so that he can focus on creating pizzas and speeding up the coooking process. in addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. 
+Miguellito is an overwhelmed business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the coooking process. In addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time. 
 
 ## Wireframes
 
