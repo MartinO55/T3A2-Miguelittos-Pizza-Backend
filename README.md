@@ -12,7 +12,23 @@ To go around this issue, the business has requested a webapp from which its cust
 
 ### Functionality/Features
 
-This app will include the functionality to allow users to order a standard pizza off a set menu, design their own pizza with a choice of different bases, sauce types, and toppings, offer the option to add sides and drinks and then return an estimate to the user as to how long it will take the order to be completed. The application will greet users with a landing page, offering them the option of visiting a menu of standard pizzas, which will offer the users the option of either selecting a prebuilt classic pizza (for example Napolitana), which can then be altered if desired and added to an order. Alternatively, Users will have the option of designing their own pizzas from the ground up with various choices of base type, sauce type and different toppings. The landing page will also lead to pages displaying social media and location information about Miguellito's pizzeria. Finally there will also be a login to allow access to the administarot dashboard for Miguelitto, showing the number of pizzas ordered and the order those pizzas were ordered in, and giving the user the option to mark the order as completed.
+Functionalities of the app include:
+
+- The landing page, where customers can find links to social media and location information about Miguelitto's Pizzeria.
+
+- Allowing users to make orders, where they may:
+
+    - Choose one or more standard pizzas from a standard menu and edit it by adding or removing ingredients.
+
+    - Design their own pizzas from scratch, choosing from a variety of different bases, sauce types, and toppings.
+
+    - Choose to add sides and drinks to the order.
+
+    - View the final price in real time while items are added.
+
+    - View a time estimate for the order to be ready.
+
+- A dashboard displaying pending orders, which will be available only to the Admin user, and accessible by inputting the Admins login credentials in the "/admin" page. From the dashboard, the admin will be able to confirm pending orders as finished.
 
 ### Target Audience
 
