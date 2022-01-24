@@ -62,9 +62,21 @@ Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and 
 
 ### Miguelitto
 
-Miguellito is an overwhelmed business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the coooking process. In addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time.
+Miguellito is an overwhelmed business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the cooking process. In addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time. Miguelitto also needs an application that does not take a great amount of time and effort to learn so that the new system does not over-complicate his life, taking up more time to operate than it saves, so that he can concentrate on what he does best; making pizzas.
 
 ## Wireframes
+
+### Landing page
+
+### Menu page
+
+### Design your own Pizza page
+
+### About Us Page
+
+### Admin Login Page
+
+### Admin Dashboard
 
 ### Colour Palette
 
