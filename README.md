@@ -104,6 +104,8 @@ Miguellito is an overwhelmed business owner juggling both running the customer s
 
 - #E4C9B1 - Grain Brown
 
+- #D7DFDE - Nebula
+
 ### Logo
 
 ## Trello Screenshots
