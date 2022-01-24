@@ -88,6 +88,8 @@ Miguellito is an overwhelmed business owner juggling both running the customer s
 
 - #E4C9B1 - Grain Brown
 
-## Trello Screenshotas
+### Logo
+
+## Trello Screenshots
 
 ### M&M IT Solutions
