@@ -12,7 +12,7 @@ To go around this issue, the business has requested a webapp from which its cust
 
 ### Functionality/Features
 
-This app will include the functionality to allow users to order a standard pizza off a set menu, design their own pizza with a choice of different bases, sauce types, and toppings, offer the option to add sides and drinks and then return an estimate to the user as to how long it will take the order to be completed.
+This app will include the functionality to allow users to order a standard pizza off a set menu, design their own pizza with a choice of different bases, sauce types, and toppings, offer the option to add sides and drinks and then return an estimate to the user as to how long it will take the order to be completed. The application will greet users with a landing page, offering them the option of visiting a menu of standard pizzas, which will offer the users the option of either selecting a prebuilt classic pizza (for example Napolitana), which can then be altered if desired and added to an order. Alternatively, Users will have the option of designing their own pizzas from the ground up with various choices of base type, sauce type and different toppings. The landing page will also lead to pages displaying social media and location information about Miguellito's pizzeria. Finally there will also be a login to allow access to the administarot dashboard for Miguelitto, showing the number of pizzas ordered and the order those pizzas were ordered in, and giving the user the option to mark the order as completed.
 
 ### Target Audience
 
@@ -42,29 +42,39 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 ## User Stories
 
-Alice
+### Alice
 
 Alice is a militant vegan coeliac who wants absolute control over what is put on her pizzas. She needs an app that lets her choose specifically gluten free products, while making sure that any ingredients she chooses are free of animal products. Alice wants specific background information on the ingredients used so she can make an informed choice.
 
-Bob
+### Bob
 
 Bob is a wannabe gourmet who wants to be able to fulfill his sick twisted desires to mix prawns with pineapple and BBQ sauce. Bob wants an app that gives him full control of the toppings on his pizza, so that he can explore all of his culinary desires.
 
 Not all adventurous combinations will work together that well, and as such, Bob also wants to be able to select the sizes of any pizzas he creates, so that in case he creates a combination that turns out to be inedible he won’t end up wasting an entire full priced large pizza.
 
-Jessica
+### Jessica
 
-Jessica is a hard-pressed working mother of seven who has no spare time to wait around. She wants an application that quickly lets her order a sufficient number of pizzas to feed her brood while making sure that any specific requests her children have can be fulfilled easily. Jessica wants full control over the toppings on her pizzas to fill her children’s demands so that she can have a relatively easy dinner for once. Jessica also wants to see exactly how long it will take until the pizzas are ready so that she can better organise her evening.  
+Jessica is a hard-pressed working mother of seven who has no spare time to wait around. She wants an application that quickly lets her order a sufficient number of pizzas to feed her brood while making sure that any specific requests her children have can be fulfilled easily. Jessica wants full control over the toppings on her pizzas to fill her children’s demands so that she can have a relatively easy dinner for once. Jessica also wants to see exactly how long it will take until the pizzas are ready so that she can better organise her evening and doesn't waste time waiting in line to order or pick up a pizza.
 
-Dave
+### Dave
 
-Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and simply enter in the requisite choices so that he can have his favourite pizza as soon as possible with the minimum of fuss. Dave wants an app that is simple to use and offers him the choices he wants so that he doesn’t have to think or invest a lot mental energy in deciding what he wants for dinner.
+Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and simply enter in the requisite choices so that he can have his favourite pizza as soon as possible with the minimum of fuss. Dave wants an app that is simple to use and offers him the choices he wants so that he doesn’t have to think or invest a lot mental energy in deciding what he wants for dinner. Dave also wants an application that doesn't waste his time with options he doesn't care about so that he can just get dinner and go.
 
-Miguelitto
+### Miguelitto
 
-Miguellito is an overwhelmed business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the coooking process. In addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time. 
+Miguellito is an overwhelmed business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the coooking process. In addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time.
 
 ## Wireframes
+
+### Colour Palette
+
+- #362B28 - Woody Brown
+
+- #F2C11D - Buttercup
+
+- #B4370F - Rust
+
+- #E4C9B1 - Grain Brown
 
 ## Trello Screenshotas
 
