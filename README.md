@@ -18,15 +18,15 @@ Functionalities of the app include:
 
 - Allowing users to make orders, where they may:
 
-    - Choose one or more standard pizzas from a standard menu and edit it by adding or removing ingredients.
+  - Choose one or more standard pizzas from a standard menu and edit it by adding or removing ingredients.
 
-    - Design their own pizzas from scratch, choosing from a variety of different bases, sauce types, and toppings.
+  - Design their own pizzas from scratch, choosing from a variety of different bases, sauce types, and toppings.
 
-    - Choose to add sides and drinks to the order.
+  - Choose to add sides and drinks to the order.
 
-    - View the final price in real time while items are added.
+  - View the final price in real time while items are added.
 
-    - View a time estimate for the order to be ready.
+  - View a time estimate for the order to be ready.
 
 - A dashboard displaying pending orders, which will be available only to the Admin user, and accessible by inputting the Admins login credentials in the "/admin" page. From the dashboard, the admin will be able to confirm pending orders as finished.
 
