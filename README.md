@@ -84,15 +84,49 @@ Miguellito is an overwhelmed business owner juggling both running the customer s
 
 ### Landing page
 
-### Menu page
+Based on the user stories, the desire for speed and simplicity was brought forward as a key design feature. Therefore, we decided on making the website as straight forward as possible, with a landing page consisting of a logo and the only two destinations that matter; the menu and the location of the pizzeria, as seen in the version one landing page.
 
-### Design your own Pizza page
+![v1 landing page image](src/Wireframes/V1/LandingPagePizzaDesktop.png "Landing page version 1")
+
+In the second revision, it was decided that these objectives would be better met by incorporating the about us page as a scrollable element at the bottom of the landing page, making it both easier to find if needed, and easier to ignore if not. It is also worth noting the integration of colour into the page in the version 2 image - the design was finalised prior to the colour palette being chosen. Finally, it was also decided that the V2 page should allow users to jump directly into designing their own pizza if desired - a further implementation of the key lessons drawn from several user stories.
+
+![v2 landing page image](src/Wireframes/V2/DesktopLandingPageV2.png "Landing page Version 2")
+
+The initial version of the mobile site landing page was altered with an eye towards optimising it for the smaller screen. With this in mind, the blurb about the pizza was removed and the site reorientated into the vertical aspect, with larger buttons for menu and about us pages to make navigation simpler.
+
+![v1 mobile landding page](src/Wireframes/V1/MobileLandingPage.png "mobile landing page V1")
+
+Likewise, the tablet landing page is simpler, with larger buttons, but retains the aspect ratio of the desktop page.
+
+![v1 tablet landing page](src/Wireframes/V1/TabletLandingPage.png "tablet landing page v1")
 
 ### About Us Page
 
+The about us page includes a blurb about Miguelittos restaurant, links to social medias and contact information, and either a static map or an embedded link to google maps. (The difficulty for this assignment is that the business in question is fictional; or not actually associated with us.)
+
+![v1 About us page](src/Wireframes/V1/AboutUsPizzaDesktop.png "About us page version 1")
+
+In later revisions this page would be removed entirely and integrated into the landing page, with any changes covered in that section.
+
+### Menu page
+
+The menu page is, at its simplest, a list of pre-designed pizzas available for users to purchase, with links to the page where a user can create their own pizza. The user stories emphasised that this page should be simple to navigate and ensure that the users at all times know exactly what they are purchasing. The pizzas available are displayed in a grid (likely using flexbox, with three being shown, but the exact number dependant on screen size).
+
+![V1 Menu Page](src/Wireframes/V1/MenuPagePizzaDesktop.png "Pizza Menu Page version 1")
+
+### Design your own Pizza page
+
 ### Admin Login Page
 
+Unlike other pages the admin pages will only formatted for desktop, as access to them is limited to Miguelitto, any staff he hires, and the system used to track orders in the pizza shop. As this system is a standard desktop system using a large touchscreen interface, both the login and dashboard pages can be designed exclusively for it.
+
+![V1Admin Login](src/Wireframes/V1/AdminLoginPizzaDesktop.png "admin login page")
+
 ### Admin Dashboard
+
+The admin dashboard page is used by the kitchen fo the restaurant to track orders, servicing them in the order in which they were recieved. For this role, it is designed to clearly and simply present the requisite information to user with a minimium of fuss or extraneous details - as such, it includes only the details of the pizza order, the sequence in which they were received and the ability to mark them as completed. In addition, there is also a button to flip to previously completed orders and back, if for some reason an order is accidentally marked completed, flipping the buttons functionality (and obviously the text on them).
+
+![V1 Admin dashboard](src/Wireframes/V1/PizzaAdminDashboard.png "v1 admin dashboard")
 
 ### Colour Palette
 
