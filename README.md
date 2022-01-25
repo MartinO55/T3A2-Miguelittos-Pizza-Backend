@@ -28,7 +28,7 @@ Functionalities of the app include:
 
   - View a time estimate for the order to be ready.
 
-- A dashboard displaying pending orders, which will be available only to the Admin user, and accessible by inputting the Admins login credentials in the "/admin" page. From the dashboard, the admin will be able to confirm pending orders as finished.
+- A dashboard displaying pending orders, which will be available only to the Admin user, and accessible by inputting the Admins login credentials in the "/admin" page. From the dashboard, the admin will be able to confirm pending orders as finished. The admin dashboard will also link to a page containing a list of available stocks of ingredients, with the admin allowed to mark various items as being out of stock or unavailable, which will show up on the website.
 
 ### Target Audience
 
@@ -56,6 +56,8 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 ## Application Architecture Diagram
 
+## ERD
+
 ## User Stories
 
 ### Alice
@@ -78,7 +80,7 @@ Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and 
 
 ### Miguelitto
 
-Miguellito is an overwhelmed business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the cooking process. In addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time. Miguelitto also needs an application that does not take a great amount of time and effort to learn so that the new system does not over-complicate his life, taking up more time to operate than it saves, so that he can concentrate on what he does best; making pizzas.
+Miguellito is an overwhelmed and aging first generation immigrant Italian business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the cooking process. In addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time. Miguelitto also needs an application that does not take a great amount of time and effort to learn so that the new system does not over-complicate his life, taking up more time to operate than it saves, so that he can concentrate on what he does best; making pizzas.
 
 ## Wireframes
 
@@ -114,7 +116,25 @@ The menu page is, at its simplest, a list of pre-designed pizzas available for u
 
 ![V1 Menu Page](src/Wireframes/V1/MenuPagePizzaDesktop.png "Pizza Menu Page version 1")
 
+In the second version of the desktop menu page the colours have been added and the logo has been altered, with additional details about each pizza. The expectation is that in this page users will click each box to make their choice about standard flavours which will then be added to their shopping cart.
+
+![V2 Menu page](src/Wireframes/V2/StandardPizzasMenuV2.png "standard Pizzas menu page, which includes a link to DIY pizza page")
+
 ### Design your own Pizza page
+
+The initial design for the "design your own pizza" page, hereafter referred to as the "DIY Pizza" page, was simply a layout with each pizza requiring the user to select a base, a sauce and a number of ingredients, with the flexbox containing the picture and description text acting as a button that toggles the inclusion of each of the choices in the final pizza, with the sidebar keeping a running tally and changing the total cost according to which ingredients are selected. This initial design uses different gray scales to separate the components, expected to be replaced with colours in the final version.
+
+![V1 DIY Pizza page](src/Wireframes/V1/DIYPizzaDesktop.png "version 1 of the DIY pizza page")
+
+The second version of the DIY pizza page includes the colour palette as decided, with changes to the page layout to simplify the design and make it clear to the user what the options are. In addition there is greater detail in the sidebar making it clear what the total costs are. as before, the user makes a selection by clicking or touching the appropriate choice, which then changes colour reflecting that.
+
+![V2 DIY Pizza Page](src/Wireframes/V2/DIYPizzaMenuV2.png "Version 2 of the DIY pizza page")
+
+### Finalise order Page
+
+This page is an addition to the V2 set of diagrams that shows the pizzas currently chosen by the user for their order, and gives them the option to add sides and drinks, or an additional pizza (with this button returning the user to the menu). There is also a button to finalise the order and send it to Miguelitto, and buttons to inspect any of the pizza orders currently in the cart.
+
+![V2 finalise order](src/Wireframes/V2/PizzaOrderFinaliseV2.png "Finalise order page V2")
 
 ### Admin Login Page
 
@@ -127,6 +147,22 @@ Unlike other pages the admin pages will only formatted for desktop, as access to
 The admin dashboard page is used by the kitchen fo the restaurant to track orders, servicing them in the order in which they were recieved. For this role, it is designed to clearly and simply present the requisite information to user with a minimium of fuss or extraneous details - as such, it includes only the details of the pizza order, the sequence in which they were received and the ability to mark them as completed. In addition, there is also a button to flip to previously completed orders and back, if for some reason an order is accidentally marked completed, flipping the buttons functionality (and obviously the text on them).
 
 ![V1 Admin dashboard](src/Wireframes/V1/PizzaAdminDashboard.png "v1 admin dashboard")
+
+In the second version of the Admin dashboard additional colors have been added to make the functionality clearer, and a link to a new page that shows available stocks has been added.
+
+![V2 Admin dashboard](src/Wireframes/V2/AdminDashboardV2.png "v2 admin dashboard")
+
+### Stock page
+
+This page was originally intended to be part of the main admin dashboard, however during development it became obvious that it would need to be its own separate page. This page shows the available stock of all items (pizza bases, sauces, toppings, sides and drinks), and lets the admin toggle their availability status, or edit specific details about them.
+
+![v2 stock page](src/Wireframes/V2/AdminStockPageV2.png "V2 Admin Stock control page")
+
+### Edit Ingredient
+
+This is a separate page that loads in order to allow Miguelitto to add a new ingredient to his database for sale, or change an existing one, adding the name, its price, an image, and whether or not it is available.
+
+![V2 Edit ingredient](src/Wireframes/V2/EditIngredientPageV2.png "V2 Edit Ingredient Page")
 
 ### Colour Palette
 
