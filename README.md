@@ -1,4 +1,4 @@
-# T3A2 REadme
+# T3A2 Readme
 
 ## Description
 
