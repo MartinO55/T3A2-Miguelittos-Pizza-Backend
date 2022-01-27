@@ -102,6 +102,12 @@ Likewise, the tablet landing page is simpler, with larger buttons, but retains t
 
 ![v1 tablet landing page](src/Wireframes/V1/TabletLandingPage.png "tablet landing page v1")
 
+The second versions of both the mobile and tablet landing page are updated to reflect the changes made to the overall layout of the desktop design, with additional colour changes, and updated logo, the merger of the landing and about us pages, and the redesign of the primary buttons on the page.
+
+![v2 Mobile landing page](src/Wireframes/V2/MobileLandingPageV2.png "Mobile landing page version 2")
+
+![v2 Tablet Landing page](src/Wireframes/V2/TabletLandingPageV2.png "Tablet landing page Version 2")
+
 ### About Us Page
 
 The about us page includes a blurb about Miguelittos restaurant, links to social medias and contact information, and either a static map or an embedded link to google maps. (The difficulty for this assignment is that the business in question is fictional; or not actually associated with us.)
@@ -120,6 +126,10 @@ In the second version of the desktop menu page the colours have been added and t
 
 ![V2 Menu page](src/Wireframes/V2/StandardPizzasMenuV2.png "standard Pizzas menu page, which includes a link to DIY pizza page")
 
+In the updated design for tablets, the colours have been updated, the logo design improved, and a pop out side bar added to contain the receipt infomration and the add to order and finalise order buttons
+
+![V2Tablet menu Page](src/Wireframes/V2/TabletMenuPageV2.png "Tablet formatted menu page version 2, with sidebar and colour changes")
+
 ### Design your own Pizza page
 
 The initial design for the "design your own pizza" page, hereafter referred to as the "DIY Pizza" page, was simply a layout with each pizza requiring the user to select a base, a sauce and a number of ingredients, with the flexbox containing the picture and description text acting as a button that toggles the inclusion of each of the choices in the final pizza, with the sidebar keeping a running tally and changing the total cost according to which ingredients are selected. This initial design uses different gray scales to separate the components, expected to be replaced with colours in the final version.
@@ -132,7 +142,7 @@ The second version of the DIY pizza page includes the colour palette as decided,
 
 ### Finalise order Page
 
-This page is an addition to the V2 set of diagrams that shows the pizzas currently chosen by the user for their order, and gives them the option to add sides and drinks, or an additional pizza (with this button returning the user to the menu). There is also a button to finalise the order and send it to Miguelitto, and buttons to inspect any of the pizza orders currently in the cart.
+This page is an addition to the V2 set of diagrams that shows the pizzas currently chosen by the user for their order, and gives them the option to add sides and drinks, or an additional pizza (with this button returning the user to the menu). There is also a button to finalise the order and send it to Miguelitto, and buttons to inspect any of the pizza orders currently in the cart. Note that the page title remains unchanged from previous iterations; this will be altered to reflect the page content.
 
 ![V2 finalise order](src/Wireframes/V2/PizzaOrderFinaliseV2.png "Finalise order page V2")
 
