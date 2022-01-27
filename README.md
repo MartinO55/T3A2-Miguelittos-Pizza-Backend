@@ -158,17 +158,29 @@ The initial version of the Mobile DIY Pizza page includes some speculative colou
 
 The second iteration of the mobile version for the DIY pizza page adds the new colour scheme and page design from the V2 desktop page, a pop out sidebar with the order totals, and a refactored object size to better account for the different screen sizes.
 
-![V2 Mobile DIY Pizza Page](src/Wireframes/V2/MobileDIYPizzaPageV2.png "second iteration of the mobiel DIY Pizza page design")
+![V2 Mobile DIY Pizza Page](src/Wireframes/V2/MobileDIYPizzaPageV2.png "second iteration of the mobile DIY Pizza page design")
 
 The initial tablet version of the DIY pizza page includes a similar colour palette to the mobile version one page but includes resized objects for tablet screens.
 
 ![V1 Tablet DIY Pizza Page](src/Wireframes/V1/TabletDIYPizzaPageSpeculativeColours.png "DIY Pizza page first iteration of tablet design, again with speculative colour palette")
+
+The second version of the tablet DIY DIY pizza page includes the resized objects, redesigned elements of the desktop second version, recoloured elements, and a popout bar to track the current cost of the pizza under construction.
+
+![V2Tablet DIY Pizza page](src/Wireframes/V2/TabletDIYPizzaV2.png "second iteration of the tablet DIY Pizza page design with new colours and design")
 
 ### Finalise order Page
 
 This page is an addition to the V2 set of diagrams that shows the pizzas currently chosen by the user for their order, and gives them the option to add sides and drinks, or an additional pizza (with this button returning the user to the menu). There is also a button to finalise the order and send it to Miguelitto, and buttons to inspect any of the pizza orders currently in the cart. Note that the page title remains unchanged from previous iterations; this will be altered to reflect the page content.
 
 ![V2 finalise order](src/Wireframes/V2/PizzaOrderFinaliseV2.png "Finalise order page V2, where users can choose sides and drinks, or add more pizzas")
+
+The tablet version of the order page adds a popout sidebar with the order details, but continues the same functionality as in the desktop version
+
+![V2 Tablet Finalise Order](src/Wireframes/V2/TabletOrderPageV2.png "Finalise order page for tablets, with popout sidebar")
+
+The mobile version of the finalise page is derived from the desktop version with a different layout and the inclusion of a popout bar to account for the smaller screen size
+
+![V2Mobile finalise order page](src/Wireframes/V2/MobileFinaliseOrderV2.png "Finalise order for mobiles, with popout sidebar and redesigned object layout")
 
 ### Admin Login Page
 
@@ -222,6 +234,12 @@ This page is the requisite page that allows Miguelitto the option of adding a ne
 
 ### Logo
 
+For reference, this is the logo for Miguelitto's pizza used throughout the app and website design process
+
+![Miguelittos Pizza Logo](src/Logo/MiguelittosPizeria3.png "Logo for Miguelittos pizza")
+
 ## Trello Screenshots
 
 ### M&M IT Solutions
+
+Completed to satisfy requriements for Coder Academy's Fast track bootcamp assignment number T3A2
