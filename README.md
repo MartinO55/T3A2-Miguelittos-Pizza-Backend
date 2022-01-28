@@ -58,6 +58,8 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 ## ERD
 
+![v1 landing page image](src/ERD/pizzeria_erd.png "Project Entity Relationship Diagram")
+
 ## User Stories
 
 ### Alice
