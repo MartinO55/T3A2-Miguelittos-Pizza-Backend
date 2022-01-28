@@ -246,6 +246,24 @@ For reference, this is the logo for Miguelitto's pizza used throughout the app a
 
 ## Trello Screenshots
 
+Below, find the sequence of Trello Board shots from the first week/sprint aimed at completing the documentation/readme/T3A2-A
+
+![trello board Screenshot 19 January](docs/Trello/TrelloBoardd190122.png "Trello Board showing progress for 19 Jan")
+
+![trello board Screenshot 20 January](docs/Trello/TrelloBoardd200122.png "Trello Board showing progress for 20 Jan")
+
+![trello board Screenshot 21 January](docs/Trello/TrelloBoardd210122.png "Trello Board showing progress for 21 Jan")
+
+![trello board Screenshot 22 January](docs/Trello/TrelloBoardd220122.png "Trello Board showing progress for 22 Jan")
+
+![trello board Screenshot 24 January](docs/Trello/TrelloBoardd240122.png "Trello Board showing progress for 24 Jan")
+
+![trello board Screenshot 25 January](docs/Trello/TrelloBoardd250122.png "Trello Board showing progress for 25 Jan")
+
+![trello board Screenshot 27 January](docs/Trello/TrelloBoardd270122.png "Trello Board showing progress for 27 Jan")
+
+![trello board Screenshot 28 January](docs/Trello/TrelloBoardd280122.png "Trello Board showing progress for 28 Jan")
+
 ### M&M IT Solutions
 
 Completed to satisfy requirements for Coder Academy's Fast Track Bootcamp assignment number T3A2
