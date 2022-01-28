@@ -54,9 +54,11 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 ## Dataflow Diagram
 
-![Data Flow Diagram image](src/DataFlowDiagram/pizzeria_dfd.png "Project Data Flow Diagram")
+![Dataflow Diagram image](src/DataFlowDiagram/pizzeria_dfd.png "Project Dataflow Diagram")
 
 ## Application Architecture Diagram
+
+![Application Architecture image](src/AppArchitectureDiagram/pizzeria_aad.png "Project Application Architecture Diagram")
 
 ## ERD
 
