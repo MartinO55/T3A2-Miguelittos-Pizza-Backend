@@ -78,15 +78,15 @@ Not all adventurous combinations will work together that well, and as such, Bob 
 
 ### Jessica
 
-Jessica is a hard-pressed working mother of seven who has no spare time to wait around. She wants an application that quickly lets her order a sufficient number of pizzas to feed her brood while making sure that any specific requests her children have can be fulfilled easily. Jessica wants full control over the toppings on her pizzas to fill her children’s demands so that she can have a relatively easy dinner for once. Jessica also wants to see exactly how long it will take until the pizzas are ready so that she can better organise her evening and doesn't waste time waiting in line to order or pick up a pizza.
+Jessica is a hard-pressed working mother of seven who has no spare time to wait around. She wants an application that quickly lets her order a sufficient number of pizzas to feed her brood while making sure that any specific requests her children have can be fulfilled easily. Jessica wants full control over the toppings on her pizzas to fill her children’s demands so that she can have a relatively easy dinner for once. Jessica also wants to see exactly how long it will take until the pizzas are ready so that she can better organize her evening and doesn't waste time waiting in line to order or pick up a pizza.
 
 ### Dave
 
-Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and simply enter in the requisite choices so that he can have his favourite pizza as soon as possible with the minimum of fuss. Dave wants an app that is simple to use and offers him the choices he wants so that he doesn’t have to think or invest a lot mental energy in deciding what he wants for dinner. Dave also wants an application that doesn't waste his time with options he doesn't care about so that he can just get dinner and go.
+Dave just wants a pizza for dinner. Dave wants an app that lets him quickly and simply enter in the requisite choices so that he can have his favorite pizza as soon as possible with the minimum of fuss. Dave wants an app that is simple to use and offers him the choices he wants so that he doesn’t have to think or invest a lot mental energy in deciding what he wants for dinner. Dave also wants an application that doesn't waste his time with options he doesn't care about so that he can just get dinner and go.
 
 ### Miguelitto
 
-Miguellito is an overwhelmed and aging first generation immigrant Italian business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the cooking process. In addition, he also wants to offer customers more freedom to experiment with their own favourite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time. Miguelitto also needs an application that does not take a great amount of time and effort to learn so that the new system does not over-complicate his life, taking up more time to operate than it saves, so that he can concentrate on what he does best; making pizzas.
+Miguelitto is an overwhelmed and aging first generation immigrant Italian business owner juggling both running the customer service side of his pizzeria and the kitchen side. Miguelitto needs an application that reduces the pressure on the customer service side of his business so that he can focus on creating pizzas and speeding up the cooking process. In addition, he also wants to offer customers more freedom to experiment with their own favorite toppings to create a better customer experience. Therefore the application needs to both give his customers the ability to order food directly, saving both his and his customers time. Miguelitto also needs an application that does not take a great amount of time and effort to learn so that the new system does not over-complicate his life, taking up more time to operate than it saves, so that he can concentrate on what he does best; making pizzas.
 
 ## Wireframes
 
@@ -100,9 +100,9 @@ In the second revision, it was decided that these objectives would be better met
 
 ![v2 landing page image](src/Wireframes/V2/DesktopLandingPageV2.png "Landing page Version 2, with merged about us page and updated colour scheme")
 
-The initial version of the mobile site landing page was altered with an eye towards optimising it for the smaller screen. With this in mind, the blurb about the pizza was removed and the site reorientated into the vertical aspect, with larger buttons for menu and about us pages to make navigation simpler.
+The initial version of the mobile site landing page was altered with an eye towards optimizing it for the smaller screen. With this in mind, the blurb about the pizza was removed and the site reorientated into the vertical aspect, with larger buttons for menu and about us pages to make navigation simpler.
 
-![v1 mobile landding page](src/Wireframes/V1/MobileLandingPage.png "mobile landing page V1")
+![v1 mobile landing page](src/Wireframes/V1/MobileLandingPage.png "mobile landing page V1")
 
 Likewise, the tablet landing page is simpler, with larger buttons, but retains the aspect ratio of the desktop page.
 
@@ -124,7 +124,7 @@ In later revisions this page would be removed entirely and integrated into the l
 
 ### Menu page
 
-The menu page is, at its simplest, a list of pre-designed pizzas available for users to purchase, with links to the page where a user can create their own pizza. The user stories emphasised that this page should be simple to navigate and ensure that the users at all times know exactly what they are purchasing. The pizzas available are displayed in a grid (likely using flexbox, with three being shown, but the exact number dependant on screen size).
+The menu page is, at its simplest, a list of pre-designed pizzas available for users to purchase, with links to the page where a user can create their own pizza. The user stories emphasized that this page should be simple to navigate and ensure that the users at all times know exactly what they are purchasing. The pizzas available are displayed in a grid (likely using flexbox, with three being shown, but the exact number dependant on screen size).
 
 ![V1 Menu Page](src/Wireframes/V1/MenuPagePizzaDesktop.png "Pizza Menu Page version 1")
 
@@ -136,7 +136,7 @@ In the first tablet menu page design, a resized version of the desktop page is u
 
 ![V1 Tablet Menu Page](src/Wireframes/V1/TabletMenuPage.png "menu page of standard pizzas, resized for tablet screens")
 
-In the updated design for tablets, the colours have been updated, the logo design improved, and a pop out side bar added to contain the receipt infomration and the add to order and finalise order buttons
+In the updated design for tablets, the colours have been updated, the logo design improved, and a pop out side bar added to contain the receipt information and the add to order and finalise order buttons
 
 ![V2Tablet menu Page](src/Wireframes/V2/TabletMenuPageV2.png "Tablet formatted menu page version 2, with sidebar and colour changes")
 
@@ -144,7 +144,7 @@ In the initial mobile design, the page colour scheme is black and white, but the
 
 ![V1 Mobile Menu Page](src/Wireframes/V1/MobileMenuPage.png "Mobile version 1 menu page, coloured in black and white")
 
-The Version two mobile menu page has been updated with the colour palette, and objects resized as appropriate for mobile screen sizes, with 2 objects per row instead of 3. In future revisions, this may be reduced to one, dpending on how these end up looking.
+The Version two mobile menu page has been updated with the colour palette, and objects resized as appropriate for mobile screen sizes, with 2 objects per row instead of 3. In future revisions, this may be reduced to one, depending on how these end up looking.
 
 ![V2 Mobile Menu Page](src/Wireframes/V2/MobileMenuV2.png "Mobile pizza menu page version 2 with finalised colour scheme")
 
@@ -170,7 +170,7 @@ The initial tablet version of the DIY pizza page includes a similar colour palet
 
 ![V1 Tablet DIY Pizza Page](src/Wireframes/V1/TabletDIYPizzaPageSpeculativeColours.png "DIY Pizza page first iteration of tablet design, again with speculative colour palette")
 
-The second version of the tablet DIY DIY pizza page includes the resized objects, redesigned elements of the desktop second version, recoloured elements, and a popout bar to track the current cost of the pizza under construction.
+The second version of the tablet DIY DIY pizza page includes the resized objects, redesigned elements of the desktop second version, recolored elements, and a pop-out bar to track the current cost of the pizza under construction.
 
 ![V2Tablet DIY Pizza page](src/Wireframes/V2/TabletDIYPizzaV2.png "second iteration of the tablet DIY Pizza page design with new colours and design")
 
@@ -180,7 +180,7 @@ This page is an addition to the V2 set of diagrams that shows the pizzas current
 
 ![V2 finalise order](src/Wireframes/V2/PizzaOrderFinaliseV2.png "Finalise order page V2, where users can choose sides and drinks, or add more pizzas")
 
-The tablet version of the order page adds a popout sidebar with the order details, but continues the same functionality as in the desktop version
+The tablet version of the order page adds a pop-out sidebar with the order details, but continues the same functionality as in the desktop version
 
 ![V2 Tablet Finalise Order](src/Wireframes/V2/TabletOrderPageV2.png "Finalise order page for tablets, with popout sidebar")
 
@@ -196,7 +196,7 @@ Unlike other pages the admin pages will only formatted for desktop, as access to
 
 ### Admin Dashboard
 
-The admin dashboard page is used by the kitchen fo the restaurant to track orders, servicing them in the order in which they were recieved. For this role, it is designed to clearly and simply present the requisite information to user with a minimium of fuss or extraneous details - as such, it includes only the details of the pizza order, the sequence in which they were received and the ability to mark them as completed. In addition, there is also a button to flip to previously completed orders and back, if for some reason an order is accidentally marked completed, flipping the buttons functionality (and obviously the text on them).
+The admin dashboard page is used by the kitchen for the restaurant to track orders, servicing them in the order in which they were received. For this role, it is designed to clearly and simply present the requisite information to user with a minimum of fuss or extraneous details - as such, it includes only the details of the pizza order, the sequence in which they were received and the ability to mark them as completed. In addition, there is also a button to flip to previously completed orders and back, if for some reason an order is accidentally marked completed, flipping the buttons functionality (and obviously the text on them).
 
 ![V1 Admin dashboard](src/Wireframes/V1/PizzaAdminDashboard.png "v1 admin dashboard showing yet to be completed orders in the order they were recieved")
 
@@ -216,7 +216,7 @@ This is a separate page that loads in order to allow Miguelitto to add a new ing
 
 ![V2 Edit ingredient](src/Wireframes/V2/EditIngredientPageV2.png "V2 Edit Ingredient Page, allowing the admin to change the details of any existing ingredient")
 
-The revised ingredient editting page now includes a drop down menu to select the category the ingredient should be placed in.
+The revised ingredient editing page now includes a drop down menu to select the category the ingredient should be placed in.
 
 ![v3 Edit Ingredient](src/Wireframes/V3/AdminEditIngredientPageV3.png "V3 edit ingredient, now with obviously needed menu option")
 
@@ -248,4 +248,4 @@ For reference, this is the logo for Miguelitto's pizza used throughout the app a
 
 ### M&M IT Solutions
 
-Completed to satisfy requriements for Coder Academy's Fast track bootcamp assignment number T3A2
+Completed to satisfy requirements for Coder Academy's Fast Track Bootcamp assignment number T3A2
