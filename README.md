@@ -266,4 +266,6 @@ Below, find the sequence of Trello Board shots from the first week/sprint aimed 
 
 ### M&M IT Solutions
 
-Completed to satisfy requirements for Coder Academy's Fast Track Bootcamp assignment number T3A2
+By Martin Olson & Mat Carvalho
+
+Completed to satisfy part of the requirements for Coder Academy's Fast Track Bootcamp assignment number T3A2
