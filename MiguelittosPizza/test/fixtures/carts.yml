@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pizza: 
+  side: 
+  drink: 
+  user: one
+
+two:
+  pizza: 
+  side: 
+  drink: 
+  user: two
