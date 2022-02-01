@@ -62,7 +62,9 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 ## ERD
 
-![Entity Relationship Diagram image](docs/ERD/pizzeria_erd.png "Project Entity Relationship Diagram")
+The ERD was altered on the revelation that all the ingredients tables could be collapsed into a single table if a second table with categories was added to act as a foreign key
+
+![Entity Relationship Diagram image](docs/ERD/MiguelittosPizzaERD3.png "Project Entity Relationship Diagram version 2")
 
 ## User Stories
 
