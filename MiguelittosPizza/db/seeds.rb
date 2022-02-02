@@ -29,20 +29,6 @@ sauces = [
     ["Extra BBQ", 5.00]
 ]
 
-sides = [
-    ["Garlic bread", 4.99],
-    ["Cheesy Garlic Bread", 5.99],
-    ["Vegan Garlic Bread", 7.99]
-]
-
-drinks = [
-    ["Water",3.50],
-    ["Mineral Water",4.50],
-    ["Splite", 3.99],
-    ["Pespi", 2.99],
-    ["Koke", 4.50]
-]
-
 toppings = [
     ["Mozarella Cheese",1.20],
     ["Ham",2.00],
@@ -58,17 +44,31 @@ toppings = [
 ]
 
 pizzas = [
+    ["Pepperoni",6.99],
     ["Hawaiian",19.99],
+    ["BBQ Chicken",19.88],
     ["Napolitana",20.22],
     ["Margherita",20.99],
     ["Cheese",9.99],
     ["Vegetarian",27.99],
-    ["Pepperoni",6.99],
     ["Meat",32.40],
     ["Supreme",19.22],
     ["Seafood",19.11],
-    ["BBQ Chicken",19.88],
     ['BBQ Beef',19.33]
+]
+
+sides = [
+    ["Garlic bread", 4.99],
+    ["Cheesy Garlic Bread", 5.99],
+    ["Vegan Garlic Bread", 7.99]
+]
+
+drinks = [
+    ["Water",3.50],
+    ["Mineral Water",4.50],
+    ["Splite", 3.99],
+    ["Pespi", 2.99],
+    ["Koke", 4.50]
 ]
 
 categories.each{|category|
@@ -97,4 +97,58 @@ drinks.each{|drink|
 
 pizzas.each{|pizza|
     Pizza.create(name: pizza[0], price: pizza[1], user_id: 1)
+}
+
+Pizza.find_by_name("Pepperoni").update recipe: {
+    "base" => "Traditional",
+    "sauce" => "Tomato",
+    "toppings" => {
+        "Mozarella Cheese" => 1,
+        "Ham" => 0,
+        "Tomato" => 0,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 1,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
+    }
+}
+
+Pizza.find_by_name("Hawaiian").update recipe: {
+    "base" => "Traditional",
+    "sauce" => "Tomato",
+    "toppings" => {
+        "Mozarella Cheese" => 1,
+        "Ham" => 1,
+        "Tomato" => 0,
+        "Bacon" => 0,
+        "Pineapple" => 1,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
+    }
+}
+
+Pizza.find_by_name("BBQ Chicken").update recipe: {
+    "base" => "Traditional",
+    "sauce" => "BBQ",
+    "toppings" => {
+        "Mozarella Cheese" => 1,
+        "Ham" => 1,
+        "Tomato" => 0,
+        "Bacon" => 1,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 1,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 1
+    }
 }
