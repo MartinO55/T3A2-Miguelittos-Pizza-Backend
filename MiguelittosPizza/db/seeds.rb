@@ -14,14 +14,36 @@ categories = [
     "Drinks"
 ]
 
-categories.each{|category|
-    Category.create(name: category)
-}
-# ------------------------------------
-
 bases = [
     ["Traditional", 5.00],
     ["Thin", 4.00],
     ["Pan", 5.00],
     ["Stuffed Crust", 7.00]
 ]
+
+pizzas = [
+    "Hawaiian",
+    "Napolitana",
+    "Margherita",
+    "Cheese",
+    "Vegetarian",
+    "Pepperoni",
+    "Meat",
+    "Supreme",
+    "Seafood",
+    "BBQ Chicken",
+    'BBQ Beef'
+]
+
+categories.each{|category|
+    Category.create(name: category)
+}
+
+bases.each{|base|
+    Product.create(name: base[0], price: base[1], category_id: 1, available: true)
+}
+
+pizzas.each{|pizza|
+    Pizza.create(name: pizza)
+}
+
