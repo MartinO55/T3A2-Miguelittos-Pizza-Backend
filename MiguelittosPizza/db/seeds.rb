@@ -22,6 +22,13 @@ bases = [
     ["Stuffed Crust", 7.00]
 ]
 
+sauces = [
+    ["Tomato", 5.00],
+    ["BBQ", 5.00],
+    ["Extra Tomato", 5.00],
+    ["Extra BBQ", 5.00]
+]
+
 sides = [
     ["Garlic bread", 4.99],
     ["Cheesy Garlic Bread", 5.99],
@@ -34,6 +41,20 @@ drinks = [
     ["Splite", 3.99],
     ["Pespi", 2.99],
     ["Koke", 4.50]
+]
+
+toppings = [
+    ["Mozarella Cheese",1.20],
+    ["Ham",2.00],
+    ["Tomato", 1.50],
+    ["Bacon", 2.20],
+    ["Pineapple",3.00],
+    ["Vegan Cheese", 3.50],
+    ["Pepperoni", 4.30],
+    ["Anchovies",0.50],
+    ["Mushrooms",3.00],
+    ["Prawns",3.33],
+    ["BBQ Chicken",6.45]
 ]
 
 pizzas = [
@@ -58,12 +79,20 @@ bases.each{|base|
     Product.create(name: base[0], price: base[1], category_id: 1, available: true)
 }
 
+sauces.each{|sauce|
+    Product.create(name: sauce[0], price: sauce[1], category_id: 2, available: true)
+}
+
+toppings.each{|topping|
+    Product.create(name: topping[0], price: topping [1], category_id: 3, available: true )
+}
+
 sides.each{|side|
-    Product.create(name: sides[0], price: sides[1], category_id: 4, available: true)
+    Product.create(name: side[0], price: sides[1], category_id: 4, available: true)
 }
 
 drinks.each{|drink|
-    Product.create(name: drinks[0], price: drinks[1], category_id: 5, available: true)
+    Product.create(name: drink[0], price: drinks[1], category_id: 5, available: true)
 }
 
 pizzas.each{|pizza|
