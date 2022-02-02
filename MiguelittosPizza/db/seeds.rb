@@ -88,11 +88,11 @@ toppings.each{|topping|
 }
 
 sides.each{|side|
-    Product.create(name: side[0], price: sides[1], category_id: 4, available: true)
+    Product.create(name: side[0], price: side[1], category_id: 4, available: true)
 }
 
 drinks.each{|drink|
-    Product.create(name: drink[0], price: drinks[1], category_id: 5, available: true)
+    Product.create(name: drink[0], price: drink[1], category_id: 5, available: true)
 }
 
 pizzas.each{|pizza|
