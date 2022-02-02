@@ -14,6 +14,24 @@ categories = [
     "Drinks"
 ]
 
+pizzas = [
+    "Hawaiian",
+    "Napolitana",
+    "Margherita",
+    "Cheese",
+    "Vegetarian",
+    "Pepperoni",
+    "Meat",
+    "Supreme",
+    "Seafood",
+    "BBQ Chicken",
+    'BBQ Beef'
+]
+
 categories.each{|category|
     Category.create(name: category)
+}
+
+pizzas.each{|pizza|
+    Pizza.create(name: pizza)
 }
