@@ -17,3 +17,11 @@ categories = [
 categories.each{|category|
     Category.create(name: category)
 }
+# ------------------------------------
+
+bases = [
+    ["Traditional", 5.00],
+    ["Thin", 4.00],
+    ["Pan", 5.00],
+    ["Stuffed Crust", 7.00]
+]
