@@ -22,6 +22,12 @@ bases = [
     ["Stuffed Crust", 7.00]
 ]
 
+sides = [
+    ["Garlic bread", 4.99],
+    ["Cheesy Garlic Bread", 5.99],
+    ["Vegan Garlic Bread", 7.99]
+]
+
 pizzas = [
     ["Hawaiian",19.99],
     ["Napolitana",20.22],
@@ -42,6 +48,10 @@ categories.each{|category|
 
 bases.each{|base|
     Product.create(name: base[0], price: base[1], category_id: 1, available: true)
+}
+
+sides.each{|side|
+    Product.create(name: sides[0], price: sides[1], category_id: 4, available: true)
 }
 
 pizzas.each{|pizza|
