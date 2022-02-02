@@ -15,23 +15,23 @@ categories = [
 ]
 
 pizzas = [
-    "Hawaiian",
-    "Napolitana",
-    "Margherita",
-    "Cheese",
-    "Vegetarian",
-    "Pepperoni",
-    "Meat",
-    "Supreme",
-    "Seafood",
-    "BBQ Chicken",
-    'BBQ Beef'
+    "Hawaiian","",19.99,
+    "Napolitana","",20.22,
+    "Margherita","",20.99,
+    "Cheese","",9.99,
+    "Vegetarian","",27.99,
+    "Pepperoni","",6.99,
+    "Meat","",32.40,
+    "Supreme","",19.22,
+    "Seafood","",19.11,
+    "BBQ Chicken","",19.88,
+    'BBQ Beef',"",19.33
 ]
 
 categories.each{|category|
     Category.create(name: category)
 }
 
-pizzas.each{|pizza|
-    Pizza.create(name: pizza)
+pizzas.each{|pizza,description,price|
+    Pizza.create(name: pizza, description: description, price: price)
 }
