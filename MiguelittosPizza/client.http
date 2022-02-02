@@ -1,2 +1,10 @@
 ### Create User
-GET
+POST http://localhost:3000/auth/sign_up
+Content-Type: application/json
+
+{
+    "name": "Ruan",
+    "email": "ruanito@test.com",
+    "password": "abcdef",
+    "password_confirmation": "abcdef"
+}
