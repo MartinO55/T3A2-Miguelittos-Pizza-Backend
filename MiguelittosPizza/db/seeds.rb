@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+User.create(username: "Miguel", password: "abcdef", password_confirmation: "abcdef")
 
 categories = [
     "Bases",
@@ -22,17 +23,17 @@ bases = [
 ]
 
 pizzas = [
-    "Hawaiian",
-    "Napolitana",
-    "Margherita",
-    "Cheese",
-    "Vegetarian",
-    "Pepperoni",
-    "Meat",
-    "Supreme",
-    "Seafood",
-    "BBQ Chicken",
-    'BBQ Beef'
+    ["Hawaiian",19.99],
+    ["Napolitana",20.22],
+    ["Margherita",20.99],
+    ["Cheese",9.99],
+    ["Vegetarian",27.99],
+    ["Pepperoni",6.99],
+    ["Meat",32.40],
+    ["Supreme",19.22],
+    ["Seafood",19.11],
+    ["BBQ Chicken",19.88],
+    ['BBQ Beef',19.33]
 ]
 
 categories.each{|category|
@@ -44,6 +45,5 @@ bases.each{|base|
 }
 
 pizzas.each{|pizza|
-    Pizza.create(name: pizza)
+    Pizza.create(name: pizza[0], price: pizza[1], user_id: 1)
 }
-
