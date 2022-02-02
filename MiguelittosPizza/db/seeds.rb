@@ -28,6 +28,14 @@ sides = [
     ["Vegan Garlic Bread", 7.99]
 ]
 
+drinks = [
+    ["Water",3.50],
+    ["Mineral Water",4.50],
+    ["Splite", 3.99],
+    ["Pespi", 2.99],
+    ["Koke", 4.50]
+]
+
 pizzas = [
     ["Hawaiian",19.99],
     ["Napolitana",20.22],
@@ -52,6 +60,10 @@ bases.each{|base|
 
 sides.each{|side|
     Product.create(name: sides[0], price: sides[1], category_id: 4, available: true)
+}
+
+drinks.each{|drink|
+    Product.create(name: drinks[0], price: drinks[1], category_id: 5, available: true)
 }
 
 pizzas.each{|pizza|
