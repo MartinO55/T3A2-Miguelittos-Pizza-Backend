@@ -1,0 +1,19 @@
+### Login to Admin
+POST http://localhost:3000/api/auth/sign_in
+Content-Type: application/json
+
+{
+    "email": "miguel@test.com",
+    "password": "abcdef"
+}
+
+### Create New Lettuce Topping
+POST http://localhost:3000/api/product/new
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NjEyNjMsInN1YiI6Mn0.HY8V_7ANKFLeapPu_4c0RJ2yVLFvvuzXRMIRDIcAV7w
+
+{
+    "name": "LETTUCE",
+    "price": 4.20,
+    "category_id": 3
+}
