@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     scope '/product' do
       post '/new', to: 'products#new'
       get '/index', to: 'products#index'
+      get '/:id', to: 'products#show'
     end
 
     scope '/auth' do

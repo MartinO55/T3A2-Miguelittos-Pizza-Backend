@@ -22,3 +22,8 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NjEyN
 GET http://localhost:3000/api/product/index
 Content-Type: application/json
 Authorization: Bearer
+
+### Show product with ID: 1
+GET http://localhost:3000/api/product/1
+Content-Type: application/json
+Authorization: Bearer

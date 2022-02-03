@@ -16,4 +16,10 @@ class Product < ApplicationRecord
       updated: self.updated_at
     }
   end
+
+  def transform_all
+    return self.map{|product| 
+        product.transform_product
+    }
+  end
 end
