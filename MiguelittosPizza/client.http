@@ -41,9 +41,9 @@ Content-Type: application/json
 
 ### Update Password
 
-POST http://localhost:3000/auth/update
+PUT http://localhost:3000/auth/update
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5Mzc2NjksInN1YiI6Mn0.6J2pNxI0mpjAoXfxzPsgC2ESEaqxnBcIht-scEk4e7w
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NDEwMzksInN1YiI6NX0.gZtbu2A478ZGtp_oBY1c2ePNJBQJl3634XaBTv7YibM
 
 {
     "password": "password"
@@ -51,16 +51,12 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5Mzc2N
 
 ### Delete Password
 
-POST http://localhost:3000/auth/destroy
+DELETE http://localhost:3000/auth/destroy
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5Mzg3OTMsInN1YiI6M30.Zs28KpCZEYn-lgPb0ShzKLiRlNEXmslOJ6tc-mXBMVE
-
-{
-    
-}
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NDIyOTcsInN1YiI6N30.m0HyJjJJvvHOU76VDTvsJggIrejB7QASzXFGM40ER08
 
 ### Show Account Details
 
 GET http://localhost:3000/auth/show
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5Mzk0ODksInN1YiI6NH0.Mwlkao510QzNma_KQNgpX02Ln7Dkg1hgFXXruH8v0Nk
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NDEzMDYsInN1YiI6Nn0.8quBOCQXOAxyKAhmL8M-EfNQ8GGZN7odJ3Wp_0K8um0
