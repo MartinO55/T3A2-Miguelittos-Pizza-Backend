@@ -8,3 +8,33 @@ Content-Type: application/json
     "password": "abcdef",
     "password_confirmation": "abcdef"
 }
+
+### Sign in || Correct details
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+
+{
+    "email": "ruanito@test.com",
+    "password": "abcdef"
+}
+
+### Sign in || Incorrect password
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+
+{
+    "email": "ruanito@test.com",
+    "password": "1234567"
+}
+
+### Sign in || Incorrect Email
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+
+{
+    "email": "nonexistent@test.com",
+    "password": "abcdef"
+}
