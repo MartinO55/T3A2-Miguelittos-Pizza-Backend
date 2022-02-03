@@ -17,3 +17,8 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NjEyN
     "price": 4.20,
     "category_id": 3
 }
+
+### Index Products
+GET http://localhost:3000/api/product/index
+Content-Type: application/json
+Authorization: Bearer

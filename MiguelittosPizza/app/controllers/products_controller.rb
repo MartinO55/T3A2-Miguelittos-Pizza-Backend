@@ -1,6 +1,11 @@
 class ProductsController < ApplicationController
-    before_action :authenticate_user, except: []
+    before_action :authenticate_user, except: [:index]
     before_action :check_admin, only: [:new]
+    
+    def index
+        @products = Product.all
+        render json: @products
+    end
     
     def new
         @product = Product.create(product_params)
