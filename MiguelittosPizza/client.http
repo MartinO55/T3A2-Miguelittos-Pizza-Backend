@@ -26,7 +26,7 @@ Content-Type: application/json
 
 {
     "email": "ruanito@test.com",
-    "password": "1234567"
+    "password": "password"
 }
 
 ### Sign in || Incorrect Email
@@ -37,4 +37,14 @@ Content-Type: application/json
 {
     "email": "nonexistent@test.com",
     "password": "abcdef"
+}
+
+### Update Password
+
+POST http://localhost:3000/auth/update
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5Mzc2NjksInN1YiI6Mn0.6J2pNxI0mpjAoXfxzPsgC2ESEaqxnBcIht-scEk4e7w
+
+{
+    "password": "password"
 }
