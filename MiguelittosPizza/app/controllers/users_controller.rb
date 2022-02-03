@@ -22,6 +22,16 @@ class UsersController < ApplicationController
         end
     end
 
+    def show
+        @user = current_user
+        if @user
+            auth_token = Knock::AuthToken.new payload: {sub: @user.id}
+            render json: {name: @user.name, email: @user.email, jwt: auth_token.token}, status: 200
+        else
+            render json: {error: "Something Went Wrong!"}, status: 500
+        end
+    end
+
     def update
         current_user.update(user_params)
 

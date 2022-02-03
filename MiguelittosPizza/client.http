@@ -58,3 +58,9 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5Mzg3O
 {
     
 }
+
+### Show Account Details
+
+GET http://localhost:3000/auth/show
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5Mzk0ODksInN1YiI6NH0.Mwlkao510QzNma_KQNgpX02Ln7Dkg1hgFXXruH8v0Nk
