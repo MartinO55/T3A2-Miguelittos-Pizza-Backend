@@ -27,7 +27,17 @@ class UsersController < ApplicationController
 
         if current_user.save
             auth_token = Knock::AuthToken.new payload: {sub: current_user.id}
-            render json: {name: current_user.name, jwt: auth_token.token}, status: :created
+            render json: {name: current_user.name, jwt: auth_token.token}, status: 200
+        else
+            render json: current_user.errors, status: :unprocessable_entity
+        end
+    end
+
+    def destroy
+        current_user.destroy
+
+        if current_user.destroy
+            render json: {message: "Sucessfully Deleted"}, status: 200
         else
             render json: current_user.errors, status: :unprocessable_entity
         end

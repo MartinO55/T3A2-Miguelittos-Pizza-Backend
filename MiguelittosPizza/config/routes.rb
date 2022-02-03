@@ -6,5 +6,6 @@ Rails.application.routes.draw do
     post '/sign_up', to: 'users#create'
     post '/sign_in', to: 'users#sign_in'
     post '/update', to: 'users#update'
+    post '/destroy', to: 'users#destroy'
   end
 end
