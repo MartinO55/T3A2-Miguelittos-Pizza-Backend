@@ -49,7 +49,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NDEwM
     "password": "password"
 }
 
-### Delete
+### Delete User
 
 DELETE http://localhost:3000/api/auth/destroy
 Content-Type: application/json

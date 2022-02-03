@@ -1,7 +1,8 @@
 class ProductsController < ApplicationController
     before_action :authenticate_user, except: [:index, :show]
+    before_action :check_admin, except: [:index, :show]
     before_action :set_product, only: [:show, :update, :destroy]
-    before_action :check_admin, only: [:new]
+    
     
     def index
         @products = Product.all.map{|p| 
@@ -21,12 +22,34 @@ class ProductsController < ApplicationController
     
     def show 
         render json: @product.transform_product
-    end 
+    end
+
+    def update
+        @product.update(product_params)
+        if @product.errors.any? 
+            render json: @product.errors, status: :unprocessable_entity
+        else  
+            render json: @product.transform_product, status: 201
+        end
+    end
+
+    def destroy
+        @product.delete 
+        render json: 204
+    end
+
+
 
     private
 
     def product_params
         params.require(:product).permit(:name, :description, :price, :available, :category_id)
+    end
+
+    def check_admin
+        if current_user.admin == false
+            render json: {error: "Unauthorized Access"}, status: 401
+        end
     end
 
     def set_product
@@ -37,7 +60,4 @@ class ProductsController < ApplicationController
         end 
     end
 
-    def transform_all
-        
-    end
 end
