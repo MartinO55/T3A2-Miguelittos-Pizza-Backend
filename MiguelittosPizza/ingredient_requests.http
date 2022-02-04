@@ -22,6 +22,10 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQwMjIwN
 GET http://localhost:3000/api/products/index
 Content-Type: application/json
 
+### Index Products + Customize Pizza
+GET http://localhost:3000/api/products/index/1
+Content-Type: application/json
+
 ### Show product with ID: 1
 GET http://localhost:3000/api/products/1
 Content-Type: application/json

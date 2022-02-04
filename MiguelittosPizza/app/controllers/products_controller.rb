@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
-    before_action :authenticate_user, except: [:index, :show]
-    before_action :check_admin, except: [:index, :show]
+    before_action :authenticate_user, except: [:index, :show, :customize]
+    before_action :check_admin, except: [:index, :show, :customize]
     before_action :set_product, only: [:show, :update, :destroy]
     
     
@@ -8,8 +8,15 @@ class ProductsController < ApplicationController
         @products = Product.all.map{|p| 
             p.transform_product
         }
-        @pizza = Pizza.find(:id)
         render json: @products
+    end
+
+    def customize
+        @pizza = Pizza.find(params[:id])
+        @products = Product.all.map{|p| 
+            p.transform_product
+        }
+        render json: [@products, @pizza]
     end
     
     def new

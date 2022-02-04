@@ -56,7 +56,7 @@ class PizzasController < ApplicationController
 
     def set_pizza
         begin
-        @pizza = pizza.find(params[:id])
+        @pizza = Pizza.find(params[:id])
         rescue
             render json: {error: "Pizza not found"}, status: 404
         end 
