@@ -4,7 +4,7 @@ class CreatePizzas < ActiveRecord::Migration[6.1]
       t.string :name
       t.text :description
       t.float :price
-      t.json :recipe
+      t.json :recipe, null: false
       t.references :user, null: false, foreign_key: true
 
       t.timestamps

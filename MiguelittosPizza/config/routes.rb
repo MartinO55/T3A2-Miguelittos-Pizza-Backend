@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  get '/', to: 'pizzas#index'
+  
   scope '/api' do
     scope '/products' do
       post '/new', to: 'products#new'
@@ -8,6 +8,14 @@ Rails.application.routes.draw do
       get '/:id', to: 'products#show'
       put '/:id', to: 'products#update'
       delete '/:id', to: 'products#destroy'
+    end
+
+    scope '/pizzas' do
+      post '/new', to: 'pizzas#new'
+      get '/index', to: 'pizzas#index'
+      get '/:id', to: 'pizzas#show'
+      put '/:id', to: 'pizzats#update'
+      delete '/:id', to: 'pizzas#destroy'
     end
 
     scope '/auth' do

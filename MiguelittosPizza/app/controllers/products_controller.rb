@@ -8,6 +8,7 @@ class ProductsController < ApplicationController
         @products = Product.all.map{|p| 
             p.transform_product
         }
+        @pizza = Pizza.find(:id)
         render json: @products
     end
     
