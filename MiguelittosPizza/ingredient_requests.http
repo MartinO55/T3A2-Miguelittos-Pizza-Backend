@@ -10,7 +10,7 @@ Content-Type: application/json
 ### Create New Lettuce Topping
 POST http://localhost:3000/api/products/new
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NjEyNjMsInN1YiI6Mn0.HY8V_7ANKFLeapPu_4c0RJ2yVLFvvuzXRMIRDIcAV7w
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQwMjIwNDMsInN1YiI6MX0.IoTM2yxDVk3T5wWtiew9tVyh0Mcqd8lS3vVwuDCaBc8
 
 {
     "name": "LETTUCE",
@@ -21,17 +21,18 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NjEyN
 ### Index Products
 GET http://localhost:3000/api/products/index
 Content-Type: application/json
-Authorization: Bearer
+
+### Index Products + Customize Pizza
+GET http://localhost:3000/api/products/index/1
+Content-Type: application/json
 
 ### Show product with ID: 1
 GET http://localhost:3000/api/products/1
 Content-Type: application/json
-Authorization: Bearer
 
 ### Show product with invalid ID
 GET http://localhost:3000/api/products/999
 Content-Type: application/json
-Authorization: Bearer
 
 ### Sucessfully update product 1
 PUT http://localhost:3000/api/products/1 
