@@ -1,0 +1,51 @@
+### Login to Admin
+POST http://localhost:3000/api/admin/sign_in
+Content-Type: application/json
+
+{
+    "email": "miguel@test.com",
+    "password": "abcdef"
+}
+
+### Create New Lettuce Topping
+POST http://localhost:3000/api/admin/products/new
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQyNzE2MjAsInN1YiI6MX0.LhM56tAqXuX-OBIHY37pFEWmiEOdqTiz77XY0P5fpMQ
+
+{
+    "name": "LETTUCE",
+    "price": 4.20,
+    "category_id": 3
+}
+
+### Index Products
+GET http://localhost:3000/api/products/index
+Content-Type: application/json
+
+### Index Products + Customize Pizza
+GET http://localhost:3000/api/products/index/1
+Content-Type: application/json
+
+### Show product with ID: 1
+GET http://localhost:3000/api/admin/products/1
+Content-Type: application/json
+
+### Show product with invalid ID
+GET http://localhost:3000/api/admin/products/999
+Content-Type: application/json
+
+### Sucessfully update product 1
+PUT http://localhost:3000/api/admin/products/1 
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQyNzE2MjAsInN1YiI6MX0.LhM56tAqXuX-OBIHY37pFEWmiEOdqTiz77XY0P5fpMQ
+
+{
+    "name": "Brock O'Lee",
+    "category_id": 4
+}
+
+### Successfully Delete Product; While testing, if db has just been seeded, create a product first.
+
+DELETE http://localhost:3000/api/admin/products/28
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQyNzE2MjAsInN1YiI6MX0.LhM56tAqXuX-OBIHY37pFEWmiEOdqTiz77XY0P5fpMQ
