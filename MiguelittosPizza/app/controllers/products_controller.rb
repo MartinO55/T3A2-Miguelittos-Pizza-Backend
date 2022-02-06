@@ -12,9 +12,9 @@ class ProductsController < ApplicationController
     end
 
     def customize
-        @pizza = Pizza.find(params[:id])
-        @products = Product.all.map{|p| 
-            p.transform_product
+        @pizza = Pizza.find(params[:id]).transform_pizza
+        @products = Product.where(category_id: 1..3).map{|p|
+                p.transform_product
         }
         render json: [@products, @pizza]
     end
