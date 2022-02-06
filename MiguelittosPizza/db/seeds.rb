@@ -44,18 +44,19 @@ toppings = [
 ]
 
 pizzas = [
-    ["Pepperoni",6.99],
-    ["Hawaiian",19.99],
-    ["BBQ Chicken",19.88],
-    ["Napolitana",20.22],
-    ["Margherita",20.99],
-    ["Cheese",9.99],
-    ["Vegetarian",27.99],
-    ["Meat",32.40],
-    ["Supreme",19.22],
-    ["Seafood",19.11],
-    ['BBQ Beef',19.33]
+    ["Custom", 0],
+    ["Pepperoni", 6.99],
+    ["Hawaiian", 19.99],
+    ["BBQ Chicken", 19.88]
 ]
+
+# ["Napolitana", 20.22],
+#     ["Margherita", 20.99],
+#     ["Cheese", 9.99],
+#     ["Vegetarian", 27.99],
+#     ["Meat", 32.40],
+#     ["Supreme", 19.22],
+#     ["Seafood", 19.11]
 
 sides = [
     ["Garlic bread", 4.99],
@@ -97,6 +98,24 @@ drinks.each{|drink|
 
 pizzas.each{|pizza|
     Pizza.create(name: pizza[0], price: pizza[1], user_id: 1)
+}
+
+Pizza.find_by_name("Custom").update recipe: {
+    "base" => "Traditional",
+    "sauce" => "Tomato",
+    "toppings" => {
+        "Mozarella Cheese" => 0,
+        "Ham" => 0,
+        "Tomato" => 0,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
+    }
 }
 
 Pizza.find_by_name("Pepperoni").update recipe: {
