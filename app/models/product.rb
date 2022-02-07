@@ -11,9 +11,7 @@ class Product < ApplicationRecord
       category: self.category.name,
       description: self.description,
       price: self.price,
-      available: self.available,
-      created: self.created_at,
-      updated: self.updated_at
+      available: self.available
     }
   end
 

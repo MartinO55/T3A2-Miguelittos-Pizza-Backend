@@ -6,9 +6,7 @@ class Pizza < ApplicationRecord
       name: self.name,
       description: self.description,
       price: self.price,
-      recipe: self.recipe,
-      created: self.created_at,
-      updated: self.updated_at
+      recipe: self.recipe
     }
   end
 
