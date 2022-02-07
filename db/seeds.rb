@@ -97,24 +97,24 @@ drinks.each{|drink|
 }
 
 pizzas.each{|pizza|
-    Pizza.create(name: pizza[0], price: pizza[1], user_id: 1)
+    Pizza.create(name: pizza[0], price: pizza[1], user_id: 1, recipe: 0)
 }
 
 Pizza.find_by_name("Custom").update recipe: {
-    "base": "Traditional",
-    "sauce": "Tomato",
-    "toppings": {
-        "Mozarella Cheese": 0,
-        "Ham": 0,
-        "Tomato": 0,
-        "Bacon": 0,
-        "Pineapple": 0,
-        "Vegan Cheese": 0,
-        "Pepperoni": 0,
-        "Anchovies": 0,
-        "Mushrooms": 0,
-        "Prawns": 0,
-        "BBQ Chicken": 0
+    "base" => "Traditional",
+    "sauce" => "Tomato",
+    "toppings" => {
+        "Mozarella Cheese" => 0,
+        "Ham" => 0,
+        "Tomato" => 0,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
     }
 }
 
