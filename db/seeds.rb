@@ -101,73 +101,73 @@ pizzas.each{|pizza|
 }
 
 Pizza.find_by_name("Custom").update recipe: {
-    "base" => "Traditional",
-    "sauce" => "Tomato",
-    "toppings" => {
-        "Mozarella Cheese" => 0,
-        "Ham" => 0,
-        "Tomato" => 0,
-        "Bacon" => 0,
-        "Pineapple" => 0,
-        "Vegan Cheese" => 0,
-        "Pepperoni" => 0,
-        "Anchovies" => 0,
-        "Mushrooms" => 0,
-        "Prawns" => 0,
-        "BBQ Chicken" => 0
+    "base": "Traditional",
+    "sauce": "Tomato",
+    "toppings": {
+        "Mozarella Cheese": 0,
+        "Ham": 0,
+        "Tomato": 0,
+        "Bacon": 0,
+        "Pineapple": 0,
+        "Vegan Cheese": 0,
+        "Pepperoni": 0,
+        "Anchovies": 0,
+        "Mushrooms": 0,
+        "Prawns": 0,
+        "BBQ Chicken": 0
     }
 }
 
-Pizza.find_by_name("Pepperoni").update recipe: {
-    "base" => "Traditional",
-    "sauce" => "Tomato",
-    "toppings" => {
-        "Mozarella Cheese" => 1,
-        "Ham" => 0,
-        "Tomato" => 0,
-        "Bacon" => 0,
-        "Pineapple" => 0,
-        "Vegan Cheese" => 0,
-        "Pepperoni" => 1,
-        "Anchovies" => 0,
-        "Mushrooms" => 0,
-        "Prawns" => 0,
-        "BBQ Chicken" => 0
-    }
-}
+# Pizza.find_by_name("Pepperoni").update recipe: {
+#     "base" => "Traditional",
+#     "sauce" => "Tomato",
+#     "toppings" => {
+#         "Mozarella Cheese" => 1,
+#         "Ham" => 0,
+#         "Tomato" => 0,
+#         "Bacon" => 0,
+#         "Pineapple" => 0,
+#         "Vegan Cheese" => 0,
+#         "Pepperoni" => 1,
+#         "Anchovies" => 0,
+#         "Mushrooms" => 0,
+#         "Prawns" => 0,
+#         "BBQ Chicken" => 0
+#     }
+# }
 
-Pizza.find_by_name("Hawaiian").update recipe: {
-    "base" => "Traditional",
-    "sauce" => "Tomato",
-    "toppings" => {
-        "Mozarella Cheese" => 1,
-        "Ham" => 1,
-        "Tomato" => 0,
-        "Bacon" => 0,
-        "Pineapple" => 1,
-        "Vegan Cheese" => 0,
-        "Pepperoni" => 0,
-        "Anchovies" => 0,
-        "Mushrooms" => 0,
-        "Prawns" => 0,
-        "BBQ Chicken" => 0
-    }
-}
+# Pizza.find_by_name("Hawaiian").update recipe: {
+#     "base" => "Traditional",
+#     "sauce" => "Tomato",
+#     "toppings" => {
+#         "Mozarella Cheese" => 1,
+#         "Ham" => 1,
+#         "Tomato" => 0,
+#         "Bacon" => 0,
+#         "Pineapple" => 1,
+#         "Vegan Cheese" => 0,
+#         "Pepperoni" => 0,
+#         "Anchovies" => 0,
+#         "Mushrooms" => 0,
+#         "Prawns" => 0,
+#         "BBQ Chicken" => 0
+#     }
+# }
 
-Pizza.find_by_name("BBQ Chicken").update recipe: {
-    "base" => "Traditional",
-    "sauce" => "BBQ",
-    "toppings" => {
-        "Mozarella Cheese" => 1,
-        "Ham" => 1,
-        "Tomato" => 0,
-        "Bacon" => 1,
-        "Pineapple" => 0,
-        "Vegan Cheese" => 0,
-        "Pepperoni" => 0,
-        "Anchovies" => 1,
-        "Mushrooms" => 0,
-        "Prawns" => 0,
-        "BBQ Chicken" => 1
-    }
-}
+# Pizza.find_by_name("BBQ Chicken").update recipe: {
+#     "base" => "Traditional",
+#     "sauce" => "BBQ",
+#     "toppings" => {
+#         "Mozarella Cheese" => 1,
+#         "Ham" => 1,
+#         "Tomato" => 0,
+#         "Bacon" => 1,
+#         "Pineapple" => 0,
+#         "Vegan Cheese" => 0,
+#         "Pepperoni" => 0,
+#         "Anchovies" => 1,
+#         "Mushrooms" => 0,
+#         "Prawns" => 0,
+#         "BBQ Chicken" => 1
+#     }
+# }
