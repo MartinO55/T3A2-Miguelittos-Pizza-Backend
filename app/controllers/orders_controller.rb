@@ -1,6 +1,6 @@
 class OrdersController < ApplicationController
-    before_action :authenticate_user, except: [:index, :show]
-    before_action :check_admin, except: [:index, :show]
+    before_action :authenticate_user
+    before_action :check_admin, except: [:show]
     before_action :set_order, only: [:show, :update, :destroy]
     
     
@@ -43,7 +43,7 @@ class OrdersController < ApplicationController
     private
 
     def order_params
-        params.require(:order).permit(:name, :description, :price, :user_id, recipe: {})
+        params.require(:order).permit(:user_id, :complete, pizza: [:name, :base, :sauce, toppings: {}], side: [], drink: [])
     end
 
     def check_admin

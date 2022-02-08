@@ -5,8 +5,9 @@ class Pizza < ApplicationRecord
     return {
       name: self.name,
       description: self.description,
-      price: self.price,
-      recipe: self.recipe
+      base: self.base,
+      sauce: self.sauce,
+      toppings: self.toppings
     }
   end
 

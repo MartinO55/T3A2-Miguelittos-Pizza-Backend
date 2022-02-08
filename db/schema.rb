@@ -35,8 +35,9 @@ ActiveRecord::Schema.define(version: 2022_02_01_100244) do
   create_table "pizzas", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.float "price"
-    t.json "recipe", null: false
+    t.string "base"
+    t.string "sauce"
+    t.json "toppings", null: false
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

@@ -1,0 +1,88 @@
+### Login to Admin
+POST http://localhost:3000/api/admin/sign_in
+Content-Type: application/json
+
+{
+    "email": "miguel@test.com",
+    "password": "abcdef"
+}
+
+### Create New Order
+POST http://localhost:3000/api/orders/new
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjk2NDksInN1YiI6MX0.JTq1F_QgAYQIkba_vlVXgW1J7MsT-QONqzBQ-2pKRuk
+
+{
+    "order": [
+        {
+            "name": "Frutti di Mare",
+            "base": "Traditional",
+            "sauce": "Tomato",
+            "toppings" :{
+                "Mozarella Cheese": 1,
+                "Ham": 0,
+                "Tomato": 1,
+                "Bacon": 0,
+                "Pineapple": 0,
+                "Vegan Cheese": 0,
+                "Pepperoni": 0,
+                "Anchovies": 1,
+                "Mushrooms": 0,
+                "Prawns": 1,
+                "BBQ Chicken": 0
+            }
+
+        },
+        {
+            "name": "Pepperoni",
+            "base": "Traditional",
+            "sauce": "Tomato",
+            "toppings" :{
+                "Mozarella Cheese": 1,
+                "Ham": 0,
+                "Tomato": 1,
+                "Bacon": 0,
+                "Pineapple": 0,
+                "Vegan Cheese": 0,
+                "Pepperoni": 1,
+                "Anchovies": 0,
+                "Mushrooms": 0,
+                "Prawns": 0,
+                "BBQ Chicken": 0
+            }
+
+        }
+    ],
+    "side": ["Garlic Bread", "Garlic Bread"],
+    "drink": ["Koke", "Splite"]
+}
+
+### Index Orders
+GET http://localhost:3000/api/admin/orders/index
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNzAyNDcsInN1YiI6MX0.33HWKDjivO0rSJDmG-rn_GCk65ywaca7DjTkBHMjo4U
+
+### Show Order with ID: 1
+GET http://localhost:3000/api/admin/orders/1
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjk5MDYsInN1YiI6MX0.8bcOEesdQaos-X4qEjG6G4dSgAx40fQf74Gh3PBUXcA
+
+### Show Order with invalid ID
+GET http://localhost:3000/api/admin/orders/999
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjk5MDYsInN1YiI6MX0.8bcOEesdQaos-X4qEjG6G4dSgAx40fQf74Gh3PBUXcA
+
+### Sucessfully update order 1
+PUT http://localhost:3000/api/admin/orders/1 
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjk3ODUsInN1YiI6MX0.xsBCmyi5oW7ot3um0zBoWTE0A_KSgaypCL3DQi-7zyE
+
+{
+    "complete": true
+}
+
+### Successfully Delete Product; While testing, if db has just been seeded, create a product first.
+
+DELETE http://localhost:3000/api/admin/orders/1
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNzAyNDcsInN1YiI6MX0.33HWKDjivO0rSJDmG-rn_GCk65ywaca7DjTkBHMjo4U

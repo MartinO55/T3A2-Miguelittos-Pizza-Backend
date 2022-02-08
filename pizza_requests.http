@@ -10,28 +10,26 @@ Content-Type: application/json
 ### Create New Pizza
 POST http://localhost:3000/api/admin/pizzas/new
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQyNzE2MjAsInN1YiI6MX0.LhM56tAqXuX-OBIHY37pFEWmiEOdqTiz77XY0P5fpMQ
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjUyMzUsInN1YiI6MX0.hPcJ9HcKJhShyuDKLIQW10IS8vbxil3ey0ANPvKq7rk
 
 {
     "name": "Frutti di Mare",
-    "price": 4.20,
-    "recipe": {
-        "base": "Traditional",
-        "sauce": "Tomato",
-        "toppings" :{
-            "Mozarella Cheese": 1,
-            "Ham": 0,
-            "Tomato": 1,
-            "Bacon": 0,
-            "Pineapple": 0,
-            "Vegan Cheese": 0,
-            "Pepperoni": 0,
-            "Anchovies": 1,
-            "Mushrooms": 0,
-            "Prawns": 1,
-            "BBQ Chicken": 0
-        }
+    "base": "Traditional",
+    "sauce": "Tomato",
+    "toppings" :{
+        "Mozarella Cheese": 1,
+        "Ham": 0,
+        "Tomato": 1,
+        "Bacon": 0,
+        "Pineapple": 0,
+        "Vegan Cheese": 0,
+        "Pepperoni": 0,
+        "Anchovies": 1,
+        "Mushrooms": 0,
+        "Prawns": 1,
+        "BBQ Chicken": 0
     }
+
 }
 
 ### Index pizzas
@@ -49,28 +47,26 @@ Content-Type: application/json
 ### Sucessfully update pizza 1
 PUT http://localhost:3000/api/admin/pizzas/1 
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQyNzE2MjAsInN1YiI6MX0.LhM56tAqXuX-OBIHY37pFEWmiEOdqTiz77XY0P5fpMQ
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjUyMzUsInN1YiI6MX0.hPcJ9HcKJhShyuDKLIQW10IS8vbxil3ey0ANPvKq7rk
 
 {
     "name": "Frutti di Mare",
-    "price": 4.20,
-    "recipe": {
-        "base": "Traditional",
-        "sauce": "Tomato",
-        "toppings" :{
-            "Mozarella Cheese": 1,
-            "Ham": 0,
-            "Tomato": 1,
-            "Bacon": 0,
-            "Pineapple": 0,
-            "Vegan Cheese": 0,
-            "Pepperoni": 0,
-            "Anchovies": 1,
-            "Mushrooms": 0,
-            "Prawns": 1,
-            "BBQ Chicken": 0
-        }
+    "base": "Traditional",
+    "sauce": "Tomato",
+    "toppings" :{
+        "Mozarella Cheese": 1,
+        "Ham": 0,
+        "Tomato": 1,
+        "Bacon": 0,
+        "Pineapple": 0,
+        "Vegan Cheese": 0,
+        "Pepperoni": 0,
+        "Anchovies": 1,
+        "Mushrooms": 0,
+        "Prawns": 1,
+        "BBQ Chicken": 0
     }
+
 }
 
 ### Successfully Delete Product; While testing, if db has just been seeded, create a product first.
