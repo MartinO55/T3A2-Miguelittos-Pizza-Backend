@@ -4,6 +4,7 @@ class Pizza < ApplicationRecord
   def transform_pizza
     return {
       name: self.name,
+      price: self.price,
       description: self.description,
       base: self.base,
       sauce: self.sauce,

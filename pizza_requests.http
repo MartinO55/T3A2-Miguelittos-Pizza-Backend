@@ -14,6 +14,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjUyM
 
 {
     "name": "Frutti di Mare",
+    "price": 17.77,
     "base": "Traditional",
     "sauce": "Tomato",
     "toppings" :{
@@ -51,6 +52,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjUyM
 
 {
     "name": "Frutti di Mare",
+    "price": 17.77,
     "base": "Traditional",
     "sauce": "Tomato",
     "toppings" :{

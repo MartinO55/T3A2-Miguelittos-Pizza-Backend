@@ -2,6 +2,7 @@ class CreatePizzas < ActiveRecord::Migration[6.1]
   def change
     create_table :pizzas do |t|
       t.string :name
+      t.float :price
       t.text :description
       t.string :base
       t.string :sauce

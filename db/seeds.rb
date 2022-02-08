@@ -102,6 +102,7 @@ drinks.each{|drink|
 
 Pizza.create(
     name: "Custom",
+    price: 16.0,
     base: "Traditional",
     sauce: "Tomato",
     toppings: {
@@ -122,6 +123,7 @@ Pizza.create(
 
 Pizza.create(
     name: "Pepperoni",
+    price: 22.50,
     base: "Traditional",
     sauce: "Tomato",
     toppings: {
@@ -142,6 +144,7 @@ Pizza.create(
 
 Pizza.create(
     name: "Hawaiian",
+    price: 18.35,
     base: "Traditional",
     sauce: "Tomato",
     toppings: {
@@ -162,6 +165,7 @@ Pizza.create(
 
 Pizza.create(
     name: "BBQ Chicken",
+    price: 19.85,
     base: "Traditional",
     sauce: "BBQ",
     toppings: {

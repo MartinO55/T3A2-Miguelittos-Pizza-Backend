@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 2022_02_01_100244) do
 
   create_table "pizzas", force: :cascade do |t|
     t.string "name"
+    t.float "price"
     t.text "description"
     t.string "base"
     t.string "sauce"
