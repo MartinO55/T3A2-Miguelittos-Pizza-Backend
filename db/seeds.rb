@@ -43,12 +43,12 @@ toppings = [
     ["BBQ Chicken",6.45]
 ]
 
-pizzas = [
-    ["Custom", 0],
-    ["Pepperoni", 6.99],
-    ["Hawaiian", 19.99],
-    ["BBQ Chicken", 19.88]
-]
+# pizzas = [
+#     ["Custom", 0],
+#     ["Pepperoni", 6.99],
+#     ["Hawaiian", 19.99],
+#     ["BBQ Chicken", 19.88]
+# ]
 
 # ["Napolitana", 20.22],
 #     ["Margherita", 20.99],
@@ -96,32 +96,35 @@ drinks.each{|drink|
     Product.create(name: drink[0], price: drink[1], category_id: 5, available: true)
 }
 
-pizzas.each{|pizza|
-    Pizza.create(name: pizza[0], price: pizza[1], user_id: 1)
-}
+# pizzas.each{|pizza|
+#     Pizza.create(name: pizza[0], price: pizza[1], user_id: 1, recipe: 0)
+# }
 
-Pizza.find_by_name("Custom").update recipe: {
-    "base": "Traditional",
-    "sauce": "Tomato",
-    "toppings": {
-        "Mozarella Cheese": 0,
-        "Ham": 0,
-        "Tomato": 0,
-        "Bacon": 0,
-        "Pineapple": 0,
-        "Vegan Cheese": 0,
-        "Pepperoni": 0,
-        "Anchovies": 0,
-        "Mushrooms": 0,
-        "Prawns": 0,
-        "BBQ Chicken": 0
-    }
-}
+Pizza.create(
+    name: "Custom",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
+        "Mozarella Cheese" => 0,
+        "Ham" => 0,
+        "Tomato" => 0,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
+    },
+    user_id: 1
+)
 
-Pizza.find_by_name("Pepperoni").update recipe: {
-    "base" => "Traditional",
-    "sauce" => "Tomato",
-    "toppings" => {
+Pizza.create(
+    name: "Pepperoni",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
         "Mozarella Cheese" => 1,
         "Ham" => 0,
         "Tomato" => 0,
@@ -133,13 +136,15 @@ Pizza.find_by_name("Pepperoni").update recipe: {
         "Mushrooms" => 0,
         "Prawns" => 0,
         "BBQ Chicken" => 0
-    }
-}
+    },
+    user_id: 1
+)
 
-Pizza.find_by_name("Hawaiian").update recipe: {
-    "base" => "Traditional",
-    "sauce" => "Tomato",
-    "toppings" => {
+Pizza.create(
+    name: "Hawaiian",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
         "Mozarella Cheese" => 1,
         "Ham" => 1,
         "Tomato" => 0,
@@ -151,13 +156,15 @@ Pizza.find_by_name("Hawaiian").update recipe: {
         "Mushrooms" => 0,
         "Prawns" => 0,
         "BBQ Chicken" => 0
-    }
-}
+    },
+    user_id: 1
+)
 
-Pizza.find_by_name("BBQ Chicken").update recipe: {
-    "base" => "Traditional",
-    "sauce" => "BBQ",
-    "toppings" => {
+Pizza.create(
+    name: "BBQ Chicken",
+    base: "Traditional",
+    sauce: "BBQ",
+    toppings: {
         "Mozarella Cheese" => 1,
         "Ham" => 1,
         "Tomato" => 0,
@@ -169,5 +176,6 @@ Pizza.find_by_name("BBQ Chicken").update recipe: {
         "Mushrooms" => 0,
         "Prawns" => 0,
         "BBQ Chicken" => 1
-    }
-}
+    },
+    user_id: 1
+)

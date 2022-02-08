@@ -21,6 +21,14 @@ Rails.application.routes.draw do
         delete '/:id', to: 'pizzas#destroy'
       end
 
+      scope '/orders' do
+        # post '/new', to: 'orders#new'
+        get '/index', to: 'orders#index'
+        get '/:id', to: 'orders#show'
+        put '/:id', to: 'orders#update'
+        delete '/:id', to: 'orders#destroy'
+      end
+
       post '/sign_in', to: 'users#sign_in'
     end
 
@@ -39,6 +47,14 @@ Rails.application.routes.draw do
       get '/:id', to: 'pizzas#show'
       # put '/:id', to: 'pizzas#update'
       # delete '/:id', to: 'pizzas#destroy'
+    end
+
+    scope '/orders' do
+      post '/new', to: 'orders#new'
+      # get '/index', to: 'orders#index'
+      get '/:id', to: 'orders#show'
+      # put '/:id', to: 'orders#update'
+      # delete '/:id', to: 'orders#destroy'
     end
 
     scope '/auth' do

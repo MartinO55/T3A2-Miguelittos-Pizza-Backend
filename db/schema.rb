@@ -15,16 +15,6 @@ ActiveRecord::Schema.define(version: 2022_02_01_100244) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "carts", force: :cascade do |t|
-    t.json "pizza"
-    t.json "side"
-    t.json "drink"
-    t.bigint "user_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["user_id"], name: "index_carts_on_user_id"
-  end
-
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
@@ -32,20 +22,22 @@ ActiveRecord::Schema.define(version: 2022_02_01_100244) do
   end
 
   create_table "orders", force: :cascade do |t|
-    t.string "customer_name"
-    t.string "phone"
-    t.boolean "complete"
-    t.bigint "cart_id", null: false
+    t.json "pizza"
+    t.json "side"
+    t.json "drink"
+    t.boolean "complete", default: false
+    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["cart_id"], name: "index_orders_on_cart_id"
+    t.index ["user_id"], name: "index_orders_on_user_id"
   end
 
   create_table "pizzas", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.float "price"
-    t.json "recipe"
+    t.string "base"
+    t.string "sauce"
+    t.json "toppings", null: false
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -72,8 +64,7 @@ ActiveRecord::Schema.define(version: 2022_02_01_100244) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "carts", "users"
-  add_foreign_key "orders", "carts"
+  add_foreign_key "orders", "users"
   add_foreign_key "pizzas", "users"
   add_foreign_key "products", "categories"
 end

@@ -1,6 +1,4 @@
 class PizzasController < ApplicationController
-
-    
     before_action :authenticate_user, except: [:index, :show]
     before_action :check_admin, except: [:index, :show]
     before_action :set_pizza, only: [:show, :update, :destroy]
@@ -45,7 +43,7 @@ class PizzasController < ApplicationController
     private
 
     def pizza_params
-        params.require(:pizza).permit(:name, :description, :price, :user_id, recipe: {})
+        params.require(:pizza).permit(:name, :description, :base, :sauce, :user_id, toppings: {})
     end
 
     def check_admin
