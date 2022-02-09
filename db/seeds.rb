@@ -33,7 +33,7 @@ toppings = [
     ["Mozarella Cheese",1.20],
     ["Ham",2.00],
     ["Tomato", 1.50],
-    ["Bacon", 2.20],remov
+    ["Bacon", 2.20],
     ["Pineapple",3.00],
     ["Vegan Cheese", 3.50],
     ["Pepperoni", 4.30],
