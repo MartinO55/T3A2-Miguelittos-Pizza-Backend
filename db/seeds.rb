@@ -99,7 +99,7 @@ drinks.each{|drink|
 # pizzas.each{|pizza|
 #     Pizza.create(name: pizza[0], price: pizza[1], user_id: 1, recipe: 0)
 # }
-
+# So I think this custom pizza needs to go. it keeps getting in the way on the front end
 Pizza.create(
     name: "Custom",
     price: 16.0,
