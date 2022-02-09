@@ -100,26 +100,26 @@ drinks.each{|drink|
 #     Pizza.create(name: pizza[0], price: pizza[1], user_id: 1, recipe: 0)
 # }
 # So I think this custom pizza needs to go. it keeps getting in the way on the front end
-Pizza.create(
-    name: "Custom",
-    price: 16.0,
-    base: "Traditional",
-    sauce: "Tomato",
-    toppings: {
-        "Mozarella Cheese" => 0,
-        "Ham" => 0,
-        "Tomato" => 0,
-        "Bacon" => 0,
-        "Pineapple" => 0,
-        "Vegan Cheese" => 0,
-        "Pepperoni" => 0,
-        "Anchovies" => 0,
-        "Mushrooms" => 0,
-        "Prawns" => 0,
-        "BBQ Chicken" => 0
-    },
-    user_id: 1
-)
+# Pizza.create(
+#     name: "Custom",
+#     price: 16.0,
+#     base: "Traditional",
+#     sauce: "Tomato",
+#     toppings: {
+#         "Mozarella Cheese" => 0,
+#         "Ham" => 0,
+#         "Tomato" => 0,
+#         "Bacon" => 0,
+#         "Pineapple" => 0,
+#         "Vegan Cheese" => 0,
+#         "Pepperoni" => 0,
+#         "Anchovies" => 0,
+#         "Mushrooms" => 0,
+#         "Prawns" => 0,
+#         "BBQ Chicken" => 0
+#     },
+#     user_id: 1
+# )
 
 Pizza.create(
     name: "Pepperoni",
