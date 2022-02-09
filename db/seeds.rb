@@ -33,7 +33,7 @@ toppings = [
     ["Mozarella Cheese",1.20],
     ["Ham",2.00],
     ["Tomato", 1.50],
-    ["Bacon", 2.20],
+    ["Bacon", 2.20],remov
     ["Pineapple",3.00],
     ["Vegan Cheese", 3.50],
     ["Pepperoni", 4.30],
@@ -124,6 +124,7 @@ drinks.each{|drink|
 Pizza.create(
     name: "Pepperoni",
     price: 22.50,
+    description: "A traditional family favourite made with only the best pepperoni and mozarella cheese",
     base: "Traditional",
     sauce: "Tomato",
     toppings: {
@@ -145,6 +146,7 @@ Pizza.create(
 Pizza.create(
     name: "Hawaiian",
     price: 18.35,
+    description: "The classic staple of kids parties everywhere made with ham, cheese and grated pineapple",
     base: "Traditional",
     sauce: "Tomato",
     toppings: {
@@ -166,6 +168,7 @@ Pizza.create(
 Pizza.create(
     name: "BBQ Chicken",
     price: 19.85,
+    description: "This amazing pizza has spicy BBQ sauce, BBQ chicken, bacon and Ham all topped with luscious melted mozarella cheese",
     base: "Traditional",
     sauce: "BBQ",
     toppings: {
@@ -176,10 +179,208 @@ Pizza.create(
         "Pineapple" => 0,
         "Vegan Cheese" => 0,
         "Pepperoni" => 0,
-        "Anchovies" => 1,
+        "Anchovies" => 0,
         "Mushrooms" => 0,
         "Prawns" => 0,
         "BBQ Chicken" => 1
+    },
+    user_id: 1
+)
+
+     Pizza.create(
+     name: "Fruti di mare",
+     price: 22.55,
+     description: "A taste of the beachfront with anchovies and prawns under a blanket of the best mozarella cheese",
+     base: "Traditional",
+     sauce: "Tomato",
+     toppings: {
+         "Mozarella Cheese" => 1,
+         "Ham" => 0,
+         "Tomato" => 1,
+         "Bacon" => 0,
+         "Pineapple" => 0,
+         "Vegan Cheese" => 0,
+         "Pepperoni" => 0,
+         "Anchovies" => 1,
+         "Mushrooms" => 0,
+         "Prawns" => 1,
+         "BBQ Chicken" => 0
+     },
+     user_id: 1
+ )
+
+  Pizza.create(
+     name: "Vegan Supreme",
+     price: 17.33,
+     description: "The Most ethical pizza anywhere all vegetarian ingredients topped with plant based cheese",
+     base: "Thin",
+     sauce: "Tomato",
+     toppings: {
+         "Mozarella Cheese" => 0,
+         "Ham" => 0,
+         "Tomato" => 1,
+         "Bacon" => 0,
+         "Pineapple" => 0,
+         "Vegan Cheese" => 1,
+         "Pepperoni" => 0,
+         "Anchovies" => 0,
+         "Mushrooms" => 1,
+         "Prawns" => 0,
+         "BBQ Chicken" => 0
+     },
+     user_id: 1
+ )
+
+ Pizza.create(
+    name: "Margherita",
+    price: 14.0,
+    description: "Simple, but made with the freshest ingredients, and an Italian classic because of it",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
+        "Mozarella Cheese" => 1,
+        "Ham" => 0,
+        "Tomato" => 1,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
+    },
+    user_id: 1
+)
+
+Pizza.create(
+    name: "Cheese",
+    price: 10.55,
+    description: "A masterpiece of simplicity and a timeless classic",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
+        "Mozarella Cheese" => 1,
+        "Ham" => 0,
+        "Tomato" => 0,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
+    },
+    user_id: 1
+)
+
+Pizza.create(
+    name: "The Works",
+    price: 36.99,
+    description: "Can't decide? Don't worry, just get everything and worry about it later",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
+        "Mozarella Cheese" => 1,
+        "Ham" => 1,
+        "Tomato" => 1,
+        "Bacon" => 1,
+        "Pineapple" => 1,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 1,
+        "Anchovies" => 1,
+        "Mushrooms" => 1,
+        "Prawns" => 1,
+        "BBQ Chicken" => 1
+    },
+    user_id: 1
+)
+
+Pizza.create(
+    name: "Mexicana",
+    price: 19.0,
+    description: "An exotic classic that showcases the best of Tex-Mex cuisine and ingredients",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
+        "Mozarella Cheese" => 1,
+        "Ham" => 0,
+        "Tomato" => 1,
+        "Bacon" => 1,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 1,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 1,
+        "BBQ Chicken" => 0
+    },
+    user_id: 1
+)
+
+Pizza.create(
+    name: "Ham & Cheese",
+    price: 18.66,
+    description: "A classic combination to make the mouths of even the pickiest eaters water",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
+        "Mozarella Cheese" => 1,
+        "Ham" => 1,
+        "Tomato" => 1,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 0,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
+    },
+    user_id: 1
+)
+
+Pizza.create(
+    name: "Nepalese",
+    price: 19.99,
+    description: "A high energy pizza from the mountains of nepal with mushrooms and chicken",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
+        "Mozarella Cheese" => 1,
+        "Ham" => 0,
+        "Tomato" => 0,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 1,
+        "Prawns" => 0,
+        "BBQ Chicken" => 1
+    },
+    user_id: 1
+)
+
+Pizza.create(
+    name: "Capricosa",
+    price: 16.0,
+    description: "A traditional Italian classic that brings together the best of italian cooking and swedish taste",
+    base: "Traditional",
+    sauce: "Tomato",
+    toppings: {
+        "Mozarella Cheese" => 1,
+        "Ham" => 1,
+        "Tomato" => 0,
+        "Bacon" => 0,
+        "Pineapple" => 0,
+        "Vegan Cheese" => 0,
+        "Pepperoni" => 0,
+        "Anchovies" => 0,
+        "Mushrooms" => 1,
+        "Prawns" => 0,
+        "BBQ Chicken" => 0
     },
     user_id: 1
 )
