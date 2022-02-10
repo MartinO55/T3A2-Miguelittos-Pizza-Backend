@@ -1,6 +1,6 @@
 class OrdersController < ApplicationController
     before_action :authenticate_user
-    before_action :check_admin, except: [:show]
+    before_action :check_admin, except: [:show, :new]
     before_action :set_order, only: [:show, :update, :destroy]
     
     

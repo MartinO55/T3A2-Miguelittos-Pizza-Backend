@@ -1,5 +1,5 @@
 ### Login to Admin
-POST http://localhost:3000/api/admin/sign_in
+POST http://localhost:8080/api/admin/sign_in
 Content-Type: application/json
 
 {
@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 
 ### Create New Pizza
-POST http://localhost:3000/api/admin/pizzas/new
+POST http://localhost:8080/api/admin/pizzas/new
 Content-Type: application/json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjUyMzUsInN1YiI6MX0.hPcJ9HcKJhShyuDKLIQW10IS8vbxil3ey0ANPvKq7rk
 
@@ -34,19 +34,19 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjUyM
 }
 
 ### Index pizzas
-GET http://localhost:3000/api/pizzas/index
+GET http://localhost:8080/api/pizzas/index
 Content-Type: application/json
 
 ### Show product with ID: 1
-GET http://localhost:3000/api/pizzas/1
+GET http://localhost:8080/api/pizzas/1
 Content-Type: application/json
 
 ### Show product with invalid ID
-GET http://localhost:3000/api/pizzas/999
+GET http://localhost:8080/api/pizzas/999
 Content-Type: application/json
 
 ### Sucessfully update pizza 1
-PUT http://localhost:3000/api/admin/pizzas/1 
+PUT http://localhost:8080/api/admin/pizzas/1 
 Content-Type: application/json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjUyMzUsInN1YiI6MX0.hPcJ9HcKJhShyuDKLIQW10IS8vbxil3ey0ANPvKq7rk
 
@@ -73,6 +73,6 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjUyM
 
 ### Successfully Delete Product; While testing, if db has just been seeded, create a product first.
 
-DELETE http://localhost:3000/api/admin/pizzas/2
+DELETE http://localhost:8080/api/admin/pizzas/2
 Content-Type: application/json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQyNzE2MjAsInN1YiI6MX0.LhM56tAqXuX-OBIHY37pFEWmiEOdqTiz77XY0P5fpMQ
