@@ -1,17 +1,17 @@
 ### Create User
-POST http://localhost:3000/api/auth/sign_up
+POST http://localhost:8080/api/auth/sign_up
 Content-Type: application/json
 
 {
-    "name": "Ruan",
-    "email": "ruanito@test.com",
+    "name": "John",
+    "email": "JOHN@test.com",
     "password": "abcdef",
     "password_confirmation": "abcdef"
 }
 
 ### Sign in || Correct details
 
-POST http://localhost:3000/api/auth/sign_in
+POST http://localhost:8080/api/auth/sign_in
 Content-Type: application/json
 
 {
@@ -21,7 +21,7 @@ Content-Type: application/json
 
 ### Sign in || Incorrect password
 
-POST http://localhost:3000/api/auth/sign_in
+POST http://localhost:8080/api/auth/sign_in
 Content-Type: application/json
 
 {
@@ -31,7 +31,7 @@ Content-Type: application/json
 
 ### Sign in || Incorrect Email
 
-POST http://localhost:3000/api/auth/sign_in
+POST http://localhost:8080/api/auth/sign_in
 Content-Type: application/json
 
 {
@@ -41,7 +41,7 @@ Content-Type: application/json
 
 ### Update Password
 
-PUT http://localhost:3000/api/auth/update
+PUT http://localhost:8080/api/auth/update
 Content-Type: application/json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NDEwMzksInN1YiI6NX0.gZtbu2A478ZGtp_oBY1c2ePNJBQJl3634XaBTv7YibM
 
@@ -51,12 +51,12 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NDEwM
 
 ### Delete User
 
-DELETE http://localhost:3000/api/auth/destroy
+DELETE http://localhost:8080/api/auth/destroy
 Content-Type: application/json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NDIyOTcsInN1YiI6N30.m0HyJjJJvvHOU76VDTvsJggIrejB7QASzXFGM40ER08
 
 ### Show Account Details
 
-GET http://localhost:3000/api/auth/show
+GET http://localhost:8080/api/auth/show
 Content-Type: application/json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM5NDEzMDYsInN1YiI6Nn0.8quBOCQXOAxyKAhmL8M-EfNQ8GGZN7odJ3Wp_0K8um0
