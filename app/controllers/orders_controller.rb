@@ -5,7 +5,7 @@ class OrdersController < ApplicationController
     
     
     def index
-        @orders = Order.all.map{|p| 
+        @orders = Order.where(complete: false).map{|p| 
             p.transform_order
         }
         render json: @orders

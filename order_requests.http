@@ -10,7 +10,7 @@ Content-Type: application/json
 ### Create New Order
 POST http://localhost:8080/api/orders/new
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNjk2NDksInN1YiI6MX0.JTq1F_QgAYQIkba_vlVXgW1J7MsT-QONqzBQ-2pKRuk
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQ1NjU5NzAsInN1YiI6MX0.nEX7DXG7lTdzeoyxIbhGLzpf9IB8kpahbRKVdPKAIds
 
 {
     "pizza": [
