@@ -56,6 +56,20 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 - GitHub – Remote Source Control Repository
 
+### Links
+
+- Github
+  - Backend: <https://github.com/MartinO55/T3A2-Miguelittos-Pizza-Backend>
+  - Frontend: <https://github.com/MartinO55/T3A2-Miguelittos-Pizza-Frontend>
+
+- Trello: <https://trello.com/b/gRpv5ZKk/t3a2publictrello>
+
+- Backend: <http://pizzaria-miguel.herokuapp.com>
+
+- Frontend: TBA
+
+- Figma: <https://www.figma.com/file/b5hXigpkQ2WVM6cTunjljw/T3A2-Figma?node-id=15%3A220>
+
 ## Dataflow Diagram
 
 ![Dataflow Diagram image](docs/DataFlowDiagram/pizzeria_dfd.png "Project Dataflow Diagram")
