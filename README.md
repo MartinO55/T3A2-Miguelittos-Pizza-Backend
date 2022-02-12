@@ -14,21 +14,25 @@ To go around this issue, the business has requested a webapp from which its cust
 
 Functionalities of the app include:
 
-- The landing page, where customers can find links to social media and location information about Miguelitto's Pizzeria.
+Like most ocassions where I order pizza, in this case our eyes were bigger than our stomachs. While the majority of planned features were implemented, some were dropped due to time constraints. In other cases, our Agile development plan suggested alternative builds that would achieve the desired goals better.
+
+- The landing page, where customers can find links to social media and location information about Miguelitto's Pizzeria. Note that without an extant Miguelitto's pizza, the links in question are dead.
+
+- An additional feature that was added during development was the ability for users to login and signup, which was extended from the planned admin login feature and implemented using knock.
 
 - Allowing users to make orders, where they may:
 
-  - Choose one or more standard pizzas from a standard menu and edit it by adding or removing ingredients.
+  - Choose one or more standard pizzas from a standard menu and edit it by adding or removing ingredients. In the final build, the ability to edit a standard pizza was judged superfluous, as it quickly became obvious, based on user stories and experience during development, that editing an already extant pizza was unneccessary; as it was no quicker than simply creating a new custom pizza as desired.
 
-  - Design their own pizzas from scratch, choosing from a variety of different bases, sauce types, and toppings.
+  - Design their own pizzas from scratch, choosing from a variety of different bases, sauce types, and toppings. In the final build, the number of toppings is limited to 19, but this feature is fully implemented.
 
-  - Choose to add sides and drinks to the order.
+  - Choose to add sides and drinks to the order. Sides and drinks exist in the database, as does the ability to handle them in the orders section, but due to time constraints they were not actually added to the front end of the site.
 
-  - View the final price in real time while items are added.
+  - View the final price in real time while items are added. This is fully implemented in both the classic pizza menu, and in the custom pizza menu, although the prices in question are arbitrary.
 
-  - View a time estimate for the order to be ready.
+  - View a time estimate for the order to be ready. As above, without an actual pizzeria, the time estimate is Arbitrary.
 
-- A dashboard displaying pending orders, which will be available only to the Admin user, and accessible by inputting the Admins login credentials in the "/admin" page. From the dashboard, the admin will be able to confirm pending orders as finished. The admin dashboard will also link to a page containing a list of available stocks of ingredients, with the admin allowed to mark various items as being out of stock or unavailable, which will show up on the website.
+  - A dashboard displaying pending orders, which will be available only to the Admin user, and accessible by inputting the Admins login credentials in the "/admin" page. From the dashboard, the admin will be able to confirm pending orders as finished. The admin dashboard will also link to a page containing a list of available stocks of ingredients, with the admin allowed to mark various items as being out of stock or unavailable, which will show up on the website. Due to time constraints, only the core parts of the admin dashboard were implelemented, namely the admin login, which was created using knock, and the pending orders page, where Miguelitto can tick off orders as completed (or at least he could). All other planned pages were dropped from development due to time constraints.
 
 ### Target Audience
 
@@ -42,9 +46,9 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 - PostgreSQL – Database
 
-- Amazon S3 – Cloud Storage for Assets
+- Amazon S3 – While it was expected that there would be assets to store, this proved not to be the case, so this requirement was dropped.
 
-- Heroku – Deployment Service
+- Heroku & Netlify - Deployment – While Heroku was used to host the Backend ruby on rails server, time constraints meant it became neccessary to deploy the front end with netlify.
 
 - Bootstrap - HTML & CSS library for structure and styling
 
@@ -230,6 +234,8 @@ This page is the requisite page that allows Miguelitto the option of adding a ne
 
 ### Colour Palette
 
+Due to Time Constraints, custom colours were not implemented into the bootstrap library. As such, the colour palette was not used.
+
 - #362B28 - Woody Brown
 
 - #F2C11D - Buttercup
@@ -248,23 +254,71 @@ For reference, this is the logo for Miguelitto's pizza used throughout the app a
 
 ## Trello Screenshots
 
-Below, find the sequence of Trello Board shots from the first week/sprint aimed at completing the documentation/readme/T3A2-A
+Below, find the sequence of Trello Board shots from the first week/sprint aimed at completing the documentation/readme/T3A2-A. For the reamining trello board screen shots, the board format was altered to take into account feedback received from markers.
+
+The board for the 19th shows initial work for the brainstorming of ideas that might work as full stack applications, with ideas categorised as either 'ideas', or 'good ideas'
 
 ![trello board Screenshot 19 January](docs/Trello/TrelloBoardd190122.png "Trello Board showing progress for 19 Jan")
 
+while waiting on final approval from our lecturers on the ideas, additional columns for readme content have been added.
+
 ![trello board Screenshot 20 January](docs/Trello/TrelloBoardd200122.png "Trello Board showing progress for 20 Jan")
+
+With the final idea approved, work has now moved on to creating the initial readme document, with colours indicating the person assigned to the task.
 
 ![trello board Screenshot 21 January](docs/Trello/TrelloBoardd210122.png "Trello Board showing progress for 21 Jan")
 
 ![trello board Screenshot 22 January](docs/Trello/TrelloBoardd220122.png "Trello Board showing progress for 22 Jan")
 
+By the 24th of January, most of the 2st draft of the readme is complete, with only the wireframes, ERD and application architechture diagrams remaining.
+
 ![trello board Screenshot 24 January](docs/Trello/TrelloBoardd240122.png "Trello Board showing progress for 24 Jan")
+
+By this point the 1st draft wireframes are all complete.
 
 ![trello board Screenshot 25 January](docs/Trello/TrelloBoardd250122.png "Trello Board showing progress for 25 Jan")
 
 ![trello board Screenshot 27 January](docs/Trello/TrelloBoardd270122.png "Trello Board showing progress for 27 Jan")
 
+By the 28th, all remaining parts of the intial readme are complete.
+
 ![trello board Screenshot 28 January](docs/Trello/TrelloBoardd280122.png "Trello Board showing progress for 28 Jan")
+
+On the 29th intial planning and scoping for coding has been done, with initial install requirements marked out and expected tasks created.
+
+![trello board Screenshot 29 January](docs/Trello/TrelloBoardd290122.png "Trello Board showing progress for 29 Jan")
+
+![trello board Screenshot 01 Februrary](docs/Trello/TrelloBoardd010222.png "Trello Board showing progress for 1st of February")
+
+![trello board Screenshot 02 Februrary](docs/Trello/TrelloBoardd020222.png "Trello Board showing progress for 2nd of February")
+
+Note that 3rd of February was when the new trello format was implemented, with badges marking the person assigned to the task, and colours marking both the category of the assignment and its status.
+
+![trello board Screenshot 03 February](docs/Trello/TrelloBoardd030222.png "Trello Board showing progress for 3rd of February.")
+
+For the 4th of february, note that the react new project has been created, and models, routes and controllers have been started in rails. The react favicon has also been changed
+
+![trello board Screenshot 04 February](docs/Trello/TrelloBoardd040222.png "Trello Board showing progress for 4th of February")
+
+By the 5th, the prototype shopping cart to be used in the application has been completed and stashed on a new branch in the front end. The users and products controllers are also complete.
+
+![trello board Screenshot 05 February](docs/Trello/TrelloBoardd050222.png "Trello Board showing progress for 5th of February")
+
+At this point, the prototype backend has been successfully deployed to Heroku, and much of the backend work has been completed.
+
+![trello board Screenshot 07 February](docs/Trello/TrelloBoardd070222.png "Trello Board showing progress for 7th of February")
+
+With the Agile sprint completed during the previosu week focussing primarily on backend work, by this point, identified refactors had been completed, and work had begun on the front end react project.
+
+![trello board Screenshot 08 February](docs/Trello/TrelloBoardd080222.png "Trello Board showing progress for 8th of February")
+
+By the 10th of february, work completed over the previous days has been added, with most of the user facing front end client complete and functioning with the deployed heroku database
+
+![trello board Screenshot 10 February](docs/Trello/TrelloBoardd100222.png "Trello Board showing progress for 10th of February")
+
+By the 12th, the only remaining steps still in scope remaining to be completed are the pending orders page in the admin section, testing, and deployment of the front end.
+
+![trello board Screenshot 12 February](docs/Trello/TrelloBoardd120222.png "Trello Board showing progress for 12th of February")
 
 ### M&M IT Solutions
 
