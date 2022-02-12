@@ -210,13 +210,13 @@ In the second version of the Admin dashboard additional colors have been added t
 
 ![V2 Admin dashboard](docs/Wireframes/V2/AdminDashboardV2.png "v2 admin dashboard showing yet to be completed orders in the order they were recieved")
 
-### Stock page
+### Stock page (Incomplete)
 
 This page was originally intended to be part of the main admin dashboard, however during development it became obvious that it would need to be its own separate page. This page shows the available stock of all items (pizza bases, sauces, toppings, sides and drinks), and lets the admin toggle their availability status, or edit specific details about them.
 
 ![v2 stock page](docs/Wireframes/V2/AdminStockPageV2.png "V2 Admin Stock control page, allowing the admin to change the available stock of ingredients, changes that once saved will be reflected on the website proper")
 
-### Edit Ingredient
+### Edit Ingredient (Incomplete)
 
 This is a separate page that loads in order to allow Miguelitto to add a new ingredient to his database for sale, or change an existing one, adding the name, its price, an image, and whether or not it is available.
 
@@ -226,7 +226,7 @@ The revised ingredient editing page now includes a drop down menu to select the 
 
 ![v3 Edit Ingredient](docs/Wireframes/V3/AdminEditIngredientPageV3.png "V3 edit ingredient, now with obviously needed menu option")
 
-### Add Ingredient
+### Add Ingredient (Incomplete)
 
 This page is the requisite page that allows Miguelitto the option of adding a new ingredient, side, or drink if he desires.
 
