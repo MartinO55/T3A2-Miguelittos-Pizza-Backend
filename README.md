@@ -14,7 +14,7 @@ To go around this issue, the business has requested a webapp from which its cust
 
 Functionalities of the app include:
 
-Like most ocassions where I order pizza, in this case our eyes were bigger than our stomachs. While the majority of planned features were implemented, some were dropped due to time constraints. In other cases, our Agile development plan suggested alternative builds that would achieve the desired goals better.
+Like most ocassions where I order pizza, in this case our eyes were bigger than our stomachs. While the majority of planned features were implemented, some were dropped due to time constraints. In other cases, our Agile development plan suggested alternative builds that would achieve the desired goals better. Furthermore, due to issues with SSL and MIME type errors during deployment, this website may not work after May 13, and some final commits may be stuck on a different fork.
 
 - The landing page, where customers can find links to social media and location information about Miguelitto's Pizzeria. Note that without an extant Miguelitto's pizza, the links in question are dead.
 
@@ -66,7 +66,7 @@ The target audience for this app is the current customer base for Miguelitto’s
 
 - Backend: <http://pizzaria-miguel.herokuapp.com>
 
-- Frontend: TBA
+- Frontend: <https://miguelittos-pizzeria.netlify.app/>
 
 - Figma: <https://www.figma.com/file/b5hXigpkQ2WVM6cTunjljw/T3A2-Figma?node-id=15%3A220>
 
