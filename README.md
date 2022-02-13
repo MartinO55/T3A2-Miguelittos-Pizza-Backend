@@ -38,7 +38,7 @@ npm install
 bundle install 
 ```
 
-Before running the application locally on your machine, you must first access the api.js (T3A2-Miguelittos-Pizza-Frontend/src/config/api.js) and in the apiUrl constant make sure the "baseURL: 'http://localhost:8080'" is the ***ONLY uncommented line*** inside of it. This will change the base url used for sending the requests to your localhost:8080, or which ever other port you decide to use.
+Before running the application locally on your machine, you must first access the api.js (T3A2-Miguelittos-Pizza-Frontend/src/config/api.js) and in the apiUrl constant make sure that "baseURL: 'http://localhost:8080'" is the ***ONLY uncommented line*** inside of it. This will change the base url used for sending the requests to your localhost:8080, or which ever other port you decide to use.
 
 ### Running Locally
 
@@ -47,6 +47,14 @@ Before running the application locally on your machine, you must first access th
 ```bash
 npm run dev 
 ```
+
+- Back end: Inside the cloned directory, setup the database.
+
+```bash
+rails db:setup 
+```
+
+  **Note:** All Categories, Products and Pizzas, as well as the Admin user credentials, are defined in the seeds.rb file. *Admin features require the current user to be an admin*.
 
 - Back end: Inside the cloned directory, start the Rails Server.
 
@@ -398,6 +406,12 @@ By the 10th of february, work completed over the previous days has been added, w
 By the 12th, the only remaining steps still in scope remaining to be completed are the pending orders page in the admin section, testing, and deployment of the front end.
 
 ![trello board Screenshot 12 February](docs/Trello/TrelloBoardd120222.png "Trello Board showing progress for 12th of February")
+
+## Testing
+
+- For testing the back end, the REST client was used to generate correctly formed and malformed requests for the backend to confirm the functionality of its data receiving and error checking ability.
+
+- User Testing of the Production website was done using family members of the development team as guinea pigs. This testing noted that the absence of feedback when clicking icons was confusing (a known issue resulting from a lack of time to customise the bootstrap styling), and that several of the redirects relating to user sign up and logging in were confusing, with no indication as to the correct course of action. However, time constraints and technical complexity prevented this from being implemented immediately. Further testing also noted that there was no indication that signing in or signing up was neccessary in order to create a pizza.
 
 ### M&M IT Solutions
 
