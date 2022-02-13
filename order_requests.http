@@ -10,7 +10,7 @@ Content-Type: application/json
 ### Create New Order
 POST http://localhost:8080/api/orders/new
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQ1NjU5NzAsInN1YiI6MX0.nEX7DXG7lTdzeoyxIbhGLzpf9IB8kpahbRKVdPKAIds
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQ2NjAzNDUsInN1YiI6MX0.Ggzgdpe26tfZ0Dz-wh7dAytgwH9EICCHmnHpsHDBH9U
 
 {
     "pizza": [
@@ -60,7 +60,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQ1NjU5N
 ### Index Orders
 GET http://localhost:8080/api/admin/orders/index
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQzNzAyNDcsInN1YiI6MX0.33HWKDjivO0rSJDmG-rn_GCk65ywaca7DjTkBHMjo4U
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQ2NjAzNDUsInN1YiI6MX0.Ggzgdpe26tfZ0Dz-wh7dAytgwH9EICCHmnHpsHDBH9U
 
 ### Show Order with ID: 1
 GET http://localhost:8080/api/admin/orders/1
